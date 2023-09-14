@@ -1,0 +1,65 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_userLayout.cshtml";
+}
+@model Vitality.Models.Feedback
+
+@{
+    ViewData["Title"] = "Add Feedback";
+}
+
+<br />
+<br />
+<br />
+<br />
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-7 col-md-12 d-flex">
+                <div class="card contact-form-card w-100">
+                    <div class="card-body">
+                        <div class="login-header">
+                            <h2>FeedBack Here</h2>
+                        </div>
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="row">
+                                @*<div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input asp-for="UserName" required class="form-control" />
+                                        <span asp-validation-for="UserName" class="text-danger"></span>
+                                    </div>
+                                </div>*@
+
+                                
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Message</label>
+<textarea class="form-control" asp-for="Feedback1" required placeholder="Enter your Feedback"></textarea>
+                                        <span asp-validation-for="Feedback1" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group form-group-btn mb-0">
+                                        <input type="submit" value="Add Feedback" class="btn btn-primary prime-btn" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

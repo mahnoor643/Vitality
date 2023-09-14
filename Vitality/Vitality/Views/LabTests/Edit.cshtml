@@ -1,0 +1,61 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model Vitality.Models.LabTest
+
+@{
+    ViewData["Title"] = "Edit LabTest";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Modify LabTest</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Lab Test</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="LabTestId" />
+                            <div class="form-group">
+                                <label class="control-label">LabTest</label>
+                                <input asp-for="LabTest1" required class="form-control" />
+                                <span asp-validation-for="LabTest1" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Amount</label>
+                                <input required asp-for="LabTestAmount" class="form-control" />
+                                <span asp-validation-for="LabTestAmount" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

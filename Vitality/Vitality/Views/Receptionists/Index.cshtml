@@ -1,0 +1,61 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@model IEnumerable<Vitality.Models.Receptionist>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceptionistName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceptionistContactNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceptionistEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceptionistPwd)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceptionistName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceptionistContactNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceptionistEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceptionistPwd)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ReceptionistId">Edit</a> |
+                <a asp-action="DeleteConfirmed" asp-route-id="@item.ReceptionistId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

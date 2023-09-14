@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from doccure.dreamguystech.com/html/template/patient-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 10:23:05 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title> @ViewData["Title"] | Vitality</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <link href="~/../assets/img/vita-05.png" rel="icon">
+
+    <link rel="stylesheet" href="~/../assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/../assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/../assets/plugins/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="~/../assets/css/feather.css">
+
+    <link rel="stylesheet" href="~/../assets/plugins/apex/apexcharts.css">
+
+    <link rel="stylesheet" href="~/../assets/css/custom.css">
+    <style>
+        .container {
+            text-align: left;
+        }
+
+        .bar {
+            width: 145px;
+            height: auto;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .content {
+            min-height: 200px;
+            padding: 80px 0 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+
+        <header class="header header-fixed header-one">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg header-nav">
+                    <div class="navbar-header">
+                        <a id="mobile_btn" href="javascript:void(0);">
+                            <span class="bar-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </a>
+                        <a asp-action="Index" asp-controller="Home" class="bar">
+                            <img src="~/../assets/img/logosV-05-05.svg" class="img-fluid" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="main-menu-wrapper">
+                        <div class="menu-header">
+                            <a asp-action="Index" asp-controller="Home" class="bar">
+                                <img src="~/../assets/img/logosV-05-05.svg" class="img-fluid" alt="Logo">
+                            </a>
+                            <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </div>
+                        <ul class="main-nav">
+                            <li class="has-submenu megamenu">
+                                <a asp-action="Index" asp-controller="Home" >Home </a>
+                                <ul class="submenu mega-submenu">
+                                    <li>
+
+                                    </li>
+                                </ul>
+                            </li>
+
+
+
+                            <li class="has-submenu">
+                            <li class="register-btn">
+                                <a asp-action="Logout" class="btn btn-primary log-btn" asp-controller="patientsRegistrations"><i class="feather-lock"></i>Logout</a>
+                            </li>
+
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+
+        @RenderBody()
+
+
+
+        <footer class="footer footer-one">
+            <div class="footer-top aos" data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="footer-widget footer-about">
+                                <div class="bar">
+                                    <img src="~/../assets/img/logosV-05-05.svg" alt="logo">
+                                </div>
+                                <div class="footer-about-content">
+                                    <p>Your health, our priority </p>
+                                    <p>Welcome to our hospital</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">For Patients</h2>
+                                <ul>
+                                    <li><a asp-action="fetchDoctor" asp-controller="doctorsRegistrations">Search for Doctors</a></li>
+                                    <li><a asp-action="Logout" asp-controller="patientsRegistrations">Logout</a></li>
+                                    <li><a asp-action="Create" asp-controller="patientsRegistrations">Register</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-2 col-md-4">
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">Quick Access</h2>
+                                <ul>
+                                    <li><a asp-controller="Home" asp-action="aboutUs">About Us</a></li>
+                                    <li><a asp-controller="ContactUs" asp-action="Create">Contact Us</a></li>
+                                    <li><a asp-controller="Feedbacks" asp-action="Create">Add Feedback</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-5">
+                            <div class="footer-widget footer-contact">
+                                <h2 class="footer-title">Contact Us</h2>
+                                <div class="footer-contact-info">
+                                    <div class="footer-address">
+                                        <p><i class="feather-map-pin"></i> 3556 Beech Street, USA</p>
+                                    </div>
+                                    <div class="footer-address">
+                                        <p><i class="feather-phone-call"></i> +1 315 369 5943</p>
+                                    </div>
+                                    <div class="footer-address mb-0">
+                                        <p><i class="feather-mail"></i> <a href="https://doccure.dreamguystech.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="89ede6eaeafcfbecc9ecf1e8e4f9e5eca7eae6e4">[email&#160;protected]</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-7">
+                            <div class="footer-widget">
+                                <h2 class="footer-title">Join Our Newsletter</h2>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="email" class="form-control" placeholder="Enter Email">
+                                        <button type="submit" class="btn">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:;" target="_blank"><i class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" target="_blank"><i class="fab fa-twitter"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="copyright-text">
+                                    <p class="mb-0"> Copyright © 2023 <a href="https://themeforest.net/user/dreamguys/portfolio" target="_blank">AsmaMahnoor.</a> All Rights Reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+
+                                <div class="copyright-menu">
+                                    <ul class="policy-menu">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms and Conditions</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+
+    </div>
+
+
+    <div class="progress-wrap active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 228.265px;"></path>
+        </svg>
+    </div>
+
+
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="~/../assets/js/jquery-3.6.4.min.js"></script>
+
+    <script src="~/../assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/../assets/js/feather.min.js"></script>
+
+    <script src="~/../assets/js/moment.min.js"></script>
+    <script src="~/../assets/js/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="~/../assets/js/owl.carousel.min.js"></script>
+
+    <script src="~/../assets/js/slick.js"></script>
+
+    <script src="~/../assets/js/aos.js"></script>
+
+    <script src="~/../assets/js/counter.js"></script>
+
+    <script src="~/../assets/js/backToTop.js"></script>
+
+    <script src="~/../assets/js/script.js"></script>
+
+
+    <!-- Mirrored from doccure.dreamguystech.com/html/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 10:15:40 GMT -->
+    </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

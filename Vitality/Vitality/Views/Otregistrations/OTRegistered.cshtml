@@ -1,0 +1,105 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.Otregistration>
+
+@{
+    ViewData["Title"] = "OTRegistered";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">OT Registered</h3>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>OT Date</th>
+                                        <th>Status</th>
+                                        <th>Doctor</th>
+                                        <th>OT Time</th>
+                                        <th>Patient Card ID</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Otdate)
+                                            </td>
+                                            <td>
+                                                @*@Html.DisplayFor(modelItem => item.Status)*@
+                                                @if (item.Status == 1)
+                                                {
+                                                    <p>Payment added</p>
+                                                }
+                                                else
+                                                {
+                                                    <p>Pending</p>
+                                                }
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Doctor.DoctorsName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.OttimeNavigation.Ottime)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PatientsCard.PatientsCardId)
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal"
+                                                   href="#delete_modal">
+                                                    <i class="fe fe-trash"></i> Delete
+                                                </a>
+                                            </td>
+                                            @*Delete Modal*@
+                                            <div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="form-content p-2">
+                                                                <h4 class="modal-title">Delete</h4>
+                                                                <p class="mb-4">Are you sure want to delete?</p>
+                                                                <a asp-action="DeleteConfirmed" asp-route-id="@item.PatientsOtid" class="btn btn-primary">Yes </a>
+                                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

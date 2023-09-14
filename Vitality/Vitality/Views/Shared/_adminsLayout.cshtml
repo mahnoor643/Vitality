@@ -1,0 +1,272 @@
+﻿@using Vitality
+@using Microsoft.AspNetCore.Http
+@inject VitalitydbContext _context
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from doccure.dreamguystech.com/html/template/admin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 10:23:53 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>@ViewData["Title"] | Vitality</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/../adminAssets/img/vita-05.png">
+
+    <link rel="stylesheet" href="~/../adminAssets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/../adminAssets/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="~/../adminAssets/css/feathericon.min.css">
+    <link rel="stylesheet" href="~/../adminAssets/plugins/morris/morris.css">
+
+    <link rel="stylesheet" href="~/../adminAssets/css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .container {
+            text-align: left;
+        }
+
+        .bar {
+            width: 175px;
+            height: auto;
+            display: inline-block;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+
+        <div class="header">
+
+            <div class="header-left">
+                <a asp-action="Index" asp-controller="Home" class="logo">
+                    <img src="~/../adminAssets/img/vita-05.png" alt="Logo">
+                </a>
+                <a asp-action="Index" asp-controller="Home" class="logo logo-small">
+                    <img src="~/../adminAssets/img/vita-05.png" alt="Logo" width="30" height="30">
+                </a>
+            </div>
+
+            <a href="javascript:void(0);" id="toggle_btn">
+                <i class="fe fe-text-align-left"></i>
+            </a>
+
+
+            <a class="mobile_btn" id="mobile_btn">
+                <i class="fa fa-bars"></i>
+            </a>
+
+
+            <ul class="nav user-menu">
+
+
+
+                @{
+                    var adminIdb = Context.Session.GetInt32(SessionVariables.SessionAdminID);
+                    if (adminIdb.HasValue)
+                    {
+                        var adminb = _context.Admins.FirstOrDefault(a => a.AdminId == adminIdb.Value);
+                        if (adminb != null)
+                        {
+                            <li class="nav-item">
+                                <a asp-controller="Admins" asp-action="dashboard" class="nav-link"><span>Dashboard</span></a>
+                            </li>
+                            <li class="nav-item dropdown has-arrow">
+                                <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                                    <span class="user-img">
+                                        <img class="rounded-circle" src="~/../adminAssets/img/testimonial.png" width="31"
+                                         alt="Ryan Taylor">
+                                    </span>
+                                </a>
+
+                                <div class="dropdown-menu">
+                                    <div class="user-header">
+                                        <div class="avatar avatar-sm">
+                                            <img src="~/../adminAssets/img/testimonial.png" alt="User Image" class="avatar-img rounded-circle">
+                                        </div>
+
+                                        <div class="user-text">
+                                            <h6>@adminb.AdminName</h6>
+                                            <p class="text-muted mb-0">Administrator</p>
+                                        </div>
+                                    </div>
+
+                                    <a class="dropdown-item" asp-action="Edit" asp-controller="Admins" asp-route-id="@adminb.AdminId">Settings</a>
+                                    <a class="dropdown-item" asp-action="Logout" asp-controller="Admins">Logout</a>
+                                </div>
+                            </li>
+                        }
+                    }
+                }
+
+            </ul>
+
+        </div>
+
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title">
+
+                        </li>
+                        @*<li>
+                        <a asp-controller="AvailedBloods" asp-action="Index">< <span>Availed Blood Samples</span></a>
+                        </li>*@
+                        <li>
+                            <a asp-controller="PatientsRegistrations" asp-action="Index"><i class="bi bi-credit-card"></i> <span>Registered Patients</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="DischargeDetails" asp-action="Create"><i class="bi bi-peace"></i> <span>Add Discharge Details</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="DischargeDetails" asp-action="Index"><i class="bi bi-peace-fill"></i> <span>Discharge Details</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="DoctorCategories" asp-action="Create"><i class="bi bi-vector-pen"></i> <span>Add Doctor Category</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="DoctorCategories" asp-action="Index"><i class="bi bi-person-circle"></i> <span>Doctor Categories</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="DoctorsAppointments" asp-action="Index"><i class="bi bi-card-checklist"></i> <span>Doctor Appointments</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="DoctorsAppointments" asp-action="Create"><i class="bi bi-pencil"></i> <span>Add Appointment</span></a>
+                        </li>
+
+                        <li class="submenu">
+                            <a asp-controller="BedAllotments" asp-action="allotedBeds">
+                                <i class="bi bi-bandaid-fill"></i> <span> Beds</span> <span class="menu-arrow"></span>
+                            </a>
+                            <ul style="display: none;">
+                                <li><a asp-controller="BedAllotments" asp-action="allotedBeds">Alloted Beds</a></li>
+                                <li><a asp-controller="BedAllotments" asp-action="Index">Requested Beds</a></li>
+                                <li><a asp-controller="Beds" asp-action="Create">Add Beds</a></li>
+                                <li><a asp-controller="Beds" asp-action="Index">Beds</a></li>
+                            </ul>
+                        </li>
+
+
+
+
+                        <li class="submenu">
+                            <a asp-controller="AvailedBloods" asp-action="Index">
+                                <i class="bi bi-droplet-half"></i> <span> Blood</span> <span class="menu-arrow"></span>
+                            </a>
+                            <ul style="display: none;">
+                                <li><a asp-controller="AvailedBloods" asp-action="Index">Availed Blood Samples</a></li>
+                                <li><a asp-controller="BloodDonors" asp-action="Create">Register BloodDonors</a></li>
+                                <li><a asp-controller="BloodDonors" asp-action="Index">Bloods</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li>
+                            <a asp-controller="DoctorsRegistrations" asp-action="Index"><i class="bi bi-person-vcard"></i> <span>Doctors List</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="DoctorsRegistrations" asp-action="addDoctor"><i class="bi bi-person-fill-add"></i> <span>Add Doctor</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="DoctorsRegistrations" asp-action="topDoctors"><i class="bi bi-bookmark-star-fill"></i> <span>Top Doctors</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="EmergencyPatients" asp-action="Create"><i class="bi bi-people-fill"></i> <span>Add Emergency Patient</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="EmergencyPatients" asp-action="Index"><i class="bi bi-person-fill-check"></i> <span>Emergency Patients</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="Contactus" asp-action="Index"><i class="bi bi-list-stars"></i> <span>Contact Msgs</span></a>
+                        </li>
+
+                        <li class="submenu">
+                            <a asp-controller="LabTestAllocations" asp-action="Index">
+                                <i class="bi bi-activity"></i> <span> Lab Tests</span> <span class="menu-arrow"></span>
+                            </a>
+                            <ul style="display: none;">
+                                <li><a asp-controller="LabTestAllocations" asp-action="Create">Register LabTest</a></li>
+                                <li><a asp-controller="LabTestAllocations" asp-action="Index">labTests History</a></li>
+                                <li><a asp-controller="LabTests" asp-action="Index">labTests</a></li>
+                                <li><a asp-controller="LabTests" asp-action="Create">Add labTests</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li>
+                            <a asp-controller="NurseRegistrations" asp-action="Create"><i class="bi bi-person"></i> <span>Register Nurse</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="NurseRegistrations" asp-action="Index"><i class="bi bi-person-fill"></i> <span>Nurses</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="Feedbacks" asp-action="Index"><i class="bi bi-bookmark-plus"></i> <span>Feedbacks</span></a>
+                        </li>
+
+                        <li class="submenu">
+                            <a asp-controller="OtdaySlots" asp-action="Index">
+                                <i class="fe fe-document"></i> <span> OT</span> <span class="menu-arrow"></span>
+                            </a>
+                            <ul style="display: none;">
+                                <li><a asp-controller="OtdaySlots" asp-action="Create">Add OT Slot Days</a></li>
+                                <li><a asp-controller="OtdaySlots" asp-action="Index">OT Slot Days</a></li>
+                                <li><a asp-controller="OttimeSlots" asp-action="Create">Add OT Slot Time</a></li>
+                                <li><a asp-controller="OttimeSlots" asp-action="Index">OT Times</a></li>
+                                <li><a asp-controller="Otregistrations" asp-action="Create">Add OT Registration</a></li>
+                                <li><a asp-controller="Otregistrations" asp-action="Index">OT Registrations</a></li>
+                                <li><a asp-controller="Otregistrations" asp-action="OTRegistered">OT Registered</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a asp-controller="PatientRooms" asp-action="Index">
+                                <i class="bi bi-door-open"></i> <span> Rooms</span> <span class="menu-arrow"></span>
+                            </a>
+                            <ul style="display: none;">
+                                <li><a asp-controller="PatientRooms" asp-action="Index">Rooms</a></li>
+                                <li><a asp-controller="PatientRooms" asp-action="Create">Add Rooms</a></li>
+                                <li><a asp-controller="PatientsAllotedRooms" asp-action="Index">Registered Rooms</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a asp-controller="PatientsIdcards" asp-action="Index"><i class="bi bi-credit-card"></i> <span>Patient ID Cards</span></a>
+                        </li>
+                        <li>
+                            <a asp-controller="Admins" asp-action="Logout"><i class="bi bi-lock-fill"></i> <span>Logout</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        @RenderBody()
+
+    </div>
+
+    <script src="~/../adminAssets/js/jquery-3.6.4.min.js"></script>
+    <script src="~/../adminAssets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/../adminAssets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="~/../adminAssets/plugins/raphael/raphael.min.js"></script>
+    <script src="~/../adminAssets/plugins/morris/morris.min.js"></script>
+    <script src="~/../adminAssets/js/chart.morris.js"></script>
+    <script src="~/../assets/plugins/datatables/jquery.dataTables.min.js"></script> <!-- Remove the duplicate datatables.min.js -->
+    <script src="~/../adminAssets/js/script.js"></script>
+
+
+
+
+</body>
+
+<!-- Mirrored from doccure.dreamguystech.com/html/template/admin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 10:24:27 GMT -->
+
+</html>

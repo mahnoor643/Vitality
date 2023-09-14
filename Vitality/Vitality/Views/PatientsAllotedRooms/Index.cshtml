@@ -1,0 +1,114 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.PatientsAllotedRoom>
+
+@{
+    ViewData["Title"] = "Patient Alloted Rooms";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Patient Rooms List</h3>
+                    @*<ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Reviews</li>
+                    </ul>*@
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Registered Time</th>
+                                        <th>Allot Till</th>
+                                       @* <th>Patients ID</th>*@
+                                        <th>Patients Card ID</th>
+                                        <th>Room</th>
+                                        <th>Room ID</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.CurrentDateTime)
+                                            </td>
+                                            @*<td>
+                                        @Html.DisplayFor(modelItem => item.Days)
+                                        </td>*@
+
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.AllotTill)
+                                            </td>
+                                            @*<td>
+                                                @Html.DisplayFor(modelItem => item.Patients.PatientsId)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Patients.PatientsName)
+                                            </td>*@
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PatientsCard.PatientsCardId)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PatientsRoom.Room)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PatientsRoom.RoomId)
+                                            </td>
+                                            <td>
+                                                <a asp-action="payment" asp-route-id="@item.PatientsAllotedRoomId" class='btn btn-sm bg-success-light'>Confirm Room</a>
+                                                <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal"
+                                                   href="#delete_modal">
+                                                    <i class="fe fe-trash"></i> Delete
+                                                </a>
+                                            </td>
+                                            @*Delete Modal*@
+                                            <div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="form-content p-2">
+                                                                <h4 class="modal-title">Delete</h4>
+                                                                <p class="mb-4">Are you sure want to delete?</p>
+                                                                <a asp-action="DeleteConfirmed" asp-route-id="@item.PatientsAllotedRoomId" class="btn btn-primary">Yes </a>
+                                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

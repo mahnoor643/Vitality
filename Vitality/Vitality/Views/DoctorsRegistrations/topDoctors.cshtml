@@ -1,0 +1,91 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.DoctorsRegistration>
+
+@{
+    ViewData["Title"] = "Best Doctors List";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Best Doctors List</h3>
+                    @*<ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Reviews</li>
+                    </ul>*@
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Phone #</th>
+                                        <th>Email</th>
+                                        <th>Image</th>
+                                        <th>Category</th>
+                                        <th> </th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsPhoneNo)
+                                            </td>
+                                           
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsEmail)
+                                            </td>
+                                            
+                                            <td>
+                                                <h2 class="table-avatar">
+                                                    <a class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="@Url.Content(item.DoctorsImg)" alt="User Image"></a>
+                                                    <p>@Html.DisplayFor(modelItem => item.DoctorsName)</p>
+                                                </h2>
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsCategoryNavigation.DoctorCategory1)
+                                            </td>
+                                           
+                                            <td>
+                                                <a href="@Url.Action("removeBestDoctor", "DoctorsRegistrations", new { id = item.DoctorsId })"><button type='button' class='btn btn-sm bg-danger-light'>Remove From Top Doctors</button></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

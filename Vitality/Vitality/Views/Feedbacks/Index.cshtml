@@ -1,0 +1,101 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.Feedback>
+
+@{
+    ViewData["Title"] = "Feedbacks";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Feedback Messages</h3>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Feedback</th>
+                                        <th> </th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.UserName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.UserEmail)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Feedback1)
+                                            </td>
+                                            <td class="text-end">
+                                                <div class="actions">
+                                                    <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal"
+                                                       href="#delete_modal">
+                                                        <i class="fe fe-trash"></i> Delete
+                                                    </a>
+                                                </div>
+                                                @if (item.Status == 0)
+                                                {
+                                                    <a href="@Url.Action("Active", "Feedbacks", new { id = item.FeedbackId })"><button type='button' class='btn btn-sm bg-success-light'>Active On Index</button></a>
+                                                }
+                                                else
+                                                {
+                                                    <a href="@Url.Action("Deactive", "Feedbacks", new { id = item.FeedbackId })"><button type='button' class='btn btn-sm bg-danger-light'>Deactive On Index</button></a>
+                                                }
+                                            </td>
+                                        </tr>
+                                        <div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body">
+                                                        <div class="form-content p-2">
+                                                            <h4 class="modal-title">Delete</h4>
+                                                            <p class="mb-4">Are you sure want to delete?</p>
+                                                            <a asp-action="DeleteConfirmed" asp-route-id="@item.FeedbackId" class="btn btn-primary">Yes </a>
+                                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

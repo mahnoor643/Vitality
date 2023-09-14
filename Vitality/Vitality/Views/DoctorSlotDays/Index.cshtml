@@ -1,0 +1,67 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.DoctorSlotDay>
+
+@{
+    ViewData["Title"] = "Doctor Slot Day";
+}
+
+
+<div class="col-md-7 col-lg-8 col-xl-9">
+    
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="mb-4">DoctorSlot Days</h4>
+            <div class="appointment-tab">
+
+                <div class="tab-content">
+
+                    <div class="tab-pane show active" id="upcoming-appointments">
+                        <div class="card card-table mb-0">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th>Doctor Slot Days</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.DoctorSlotDays)
+                                                    </td>
+                                                    @* <td>
+                                                @Html.DisplayFor(modelItem => item.Doctors.DoctorsId)
+                                                </td>*@
+                                                    <td>
+                                                        <a asp-action="DeleteConfirmed" class="btn btn-sm bg-danger-light" asp-route-id="@item.DoctorSlotDaysId">Delete</a>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,259 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model adminDashboard
+
+@{
+    ViewData["Title"] = "dashboard";
+}
+
+
+
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Welcome Admin!</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item active">Dashboard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dash-widget-header">
+                            <span class="dash-widget-icon text-primary border-primary">
+                                <i class="fe fe-users"></i>
+                            </span>
+                            <div class="dash-count">
+                                <h3>@Model.DoctorsRegistrationCount</h3>
+                            </div>
+                        </div>
+                        <div class="dash-widget-info">
+                            <h6 class="text-muted">Doctors</h6>
+                            <div class="progress progress-sm">
+                                <div class="progress-bar bg-primary w-50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dash-widget-header">
+                            <span class="dash-widget-icon text-success">
+                                <i class="fe fe-credit-card"></i>
+                            </span>
+                            <div class="dash-count">
+                                <h3>@Model.PatientsRegistrationsCount</h3>
+                            </div>
+                        </div>
+                        <div class="dash-widget-info">
+                            <h6 class="text-muted">Patients</h6>
+                            <div class="progress progress-sm">
+                                <div class="progress-bar bg-success w-50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dash-widget-header">
+                            <span class="dash-widget-icon text-danger border-danger">
+                                <i class="fe fe-money"></i>
+                            </span>
+                            <div class="dash-count">
+                                <h3>@Model.DoctorsAppointmentsCount</h3>
+                            </div>
+                        </div>
+                        <div class="dash-widget-info">
+                            <h6 class="text-muted">Appointment</h6>
+                            <div class="progress progress-sm">
+                                <div class="progress-bar bg-danger w-50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dash-widget-header">
+                            <span class="dash-widget-icon text-warning border-warning">
+                                <i class="fe fe-folder"></i>
+                            </span>
+                            <div class="dash-count">
+                                <h3>@Model.FeedbacksCount</h3>
+                            </div>
+                        </div>
+                        <div class="dash-widget-info">
+                            <h6 class="text-muted">Reviews</h6>
+                            <div class="progress progress-sm">
+                                <div class="progress-bar bg-warning w-50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+            </div>
+        </div>
+        @if(Model.DoctorsAppointments!=null){
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="card card-table">
+                    <div class="card-header">
+                        <h4 class="card-title">Today's Appointments List</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Doctor ID</th>
+                                        <th>Appointment Date</th>
+                                        <th>Patient ID</th>
+                                        <th>Appointment Time</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.DoctorsAppointments)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <h2 class="table-avatar">
+                                                    <a>@item.DoctorAppointment</a>
+                                                </h2>
+                                            </td>
+                                            <td>@item.DoctorAppointmentDate</td>
+                                            <td>
+                                                <h2 class="table-avatar">
+
+                                                    <a>@item.PatientsId </a>
+                                                </h2>
+                                            </td>
+                                            <td><span class="text-primary d-block">@item.DoctorAppointmentTimeNavigation.DoctorSlotTime1</span></td>
+                                            <td>
+                                                @item.Status
+                                            </td>
+
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        }
+        <div class="row">
+            <div class="col-md-6 d-flex">
+
+                <div class="card card-table flex-fill">
+                    <div class="card-header">
+                        <h4 class="card-title">Doctors List</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Doctor Name</th>
+                                        <th>Speciality</th>
+                                        <th>Phone#</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(var item in Model.DoctorsRegistration){
+                                    <tr>
+                                        <td>
+                                            <h2 class="table-avatar">
+                                                <a href="profile.html" class="avatar avatar-sm me-2">
+                                                    <img class="avatar-img rounded-circle"
+                                                         src="@Url.Content(item.DoctorsImg)" alt="@item.DoctorsName">
+                                                </a>
+                                                <a href="profile.html">@item.DoctorsName</a>
+                                            </h2>
+                                        </td>
+                                        <td>@item.DoctorsCategory</td>
+                                        <td>@item.DoctorsPhoneNo</td>
+                                        <td>
+                                            @item.DoctorsEmail
+                                        </td>
+                                        </tr>
+                                    }
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 d-flex">
+
+                <div class="card  card-table flex-fill">
+                    <div class="card-header">
+                        <h4 class="card-title">Patients List</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Patient Name</th>
+                                        <th>Phone</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(var  item in Model.PatientsRegistrations){
+                                    <tr>
+                                        <td>
+                                            <h2 class="table-avatar">
+                                                
+                                                <a >@item.PatientsName </a>
+                                            </h2>
+                                        </td>
+                                        <td>@item.PatientsPhoneNo</td>
+                                        <td>@item.PatientsEmail</td>
+                                        </tr>
+                                    }
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       
+    </div>
+</div>

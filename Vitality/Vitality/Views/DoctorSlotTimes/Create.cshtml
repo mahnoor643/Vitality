@@ -1,0 +1,50 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+@model Vitality.Models.DoctorSlotTime
+
+@{
+    ViewData["Title"] = "Add Slot Time";
+}
+
+<div class="col-md-7 col-lg-8 col-xl-9">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Add Slot Time</h4>
+        </div>
+        <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Slot Time</label>
+                <select asp-for="DoctorSlotTime1" class="form-control">
+                        <option value="1:00p.m - 2:00p.m">1:00p.m - 2:00p.m</option>
+                        <option value="2:00p.m - 3:00p.m">2:00p.m - 3:00p.m</option>
+                        <option value="3:00p.m - 4:00p.m">3:00p.m - 4:00p.m</option>
+                        <option value="4:00p.m - 5:00p.m">4:00p.m - 5:00p.m</option>
+                        <option value="5:00p.m - 6:00p.m">5:00p.m - 6:00p.m</option>
+                        <option value="6:00p.m - 7:00p.m">6:00p.m - 7:00p.m</option>
+                        <option value="7:00p.m - 8:00p.m">7:00p.m - 8:00p.m</option>
+                </select>
+                <span asp-validation-for="DoctorSlotTime1" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="DoctorsId" class="control-label"></label>
+                <select asp-for="DoctorsId" class ="form-control" asp-items="ViewBag.DoctorsId"></select>
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-primary" />
+            </div>
+        </form>
+        </div>
+    </div>
+</div>

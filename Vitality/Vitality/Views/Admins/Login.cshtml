@@ -1,0 +1,120 @@
+﻿@model Vitality.Models.Admin
+
+@{
+    Layout = null;
+}
+@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from doccure.dreamguystech.com/html/template/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 10:24:47 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>Admin Login | Vitality</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <link rel="stylesheet" href="~/../assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/../assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/../assets/plugins/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="~/../assets/css/feather.css">
+
+    <link rel="stylesheet" href="~/../assets/css/custom.css">
+</head>
+<div class="content top-space">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+
+                <div class="account-content">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-7 col-lg-6 login-left">
+                            <img src="~/assets/img/logosV-05-05.svg" class="img-fluid" alt="Doccure Login">
+                        </div>
+                        <div class="col-md-12 col-lg-6 login-right">
+                            <div class="login-header">
+                                <h3>Login <span>Admin</span></h3>
+                            </div>
+                            <form asp-action="Login">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <div class="form-group form-focus">
+                                    <label class="focus-label">Username</label>
+                                    <input asp-for="AdminUsername" type="email" class="form-control floating" required="Admin Name" />
+                                    <span asp-validation-for="AdminUsername" class="text-danger"></span>
+
+                                </div>
+                                <div class="form-group form-focus">
+                                    <div class="form-group">
+                                        <label class="focus-label">Password</label>
+                                        <input asp-for="AdminPwd" required="password" type="password" class="form-control floating" />
+                                        <span asp-validation-for="AdminPwd" class="text-danger"></span>
+                                    </div>
+
+                                </div>
+
+                                <button class="btn btn-primary w-100 btn-lg login-btn" value="Login" type="submit">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</html>
+
+
+
+
+
+
+
+
+
+@*<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AdminUsername" class="control-label"></label>
+                <input asp-for="AdminUsername" class="form-control" />
+                <span asp-validation-for="AdminUsername" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdminPwd" class="control-label"></label>
+                <input asp-for="AdminPwd" class="form-control" />
+                <span asp-validation-for="AdminPwd" class="text-danger"></span>
+            </div>*@
+@*<div class="form-group">
+                <label asp-for="AdminName" class="control-label"></label>
+                <input asp-for="AdminName" class="form-control" />
+                <span asp-validation-for="AdminName" class="text-danger"></span>
+            </div>*@
+@*        <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+*@

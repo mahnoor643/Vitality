@@ -1,0 +1,143 @@
+﻿@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@model IEnumerable<Vitality.Models.PatientsIdcard>
+
+@{
+    ViewData["Title"] = "Patient Cards";
+}
+
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Patient Cards</h3>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <!-- Content for the main section (9 columns) -->
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-end">
+                        <form action="@Url.Action("Index","PatientsIdcards")" method="get" class="d-flex justify-content-end">
+                            <input class="form-control" name="searchresult" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-sm bg-success-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Patient Name</th>
+                                        <th>Advance Payment</th>
+                                        <th>Status</th>
+                                        <th>Valid Date</th>
+                                        <th>Amount to Pay</th>
+                                        <th>Patient ID</th>
+                                        <th>Email</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Patients.PatientsName)
+                                            </td>
+                                            <td>
+                                        @Html.DisplayFor(modelItem => item.AdvancePayment)
+                                        </td>
+                                            <td>
+                                                @* @Html.DisplayFor(modelItem => item.Status)*@
+                                                @if (item.Status == 1)
+                                                {
+                                                    <p>Active</p>
+                                                }
+                                                else
+                                                {
+                                                    <p>Deactive</p>
+                                                }
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.ValidDate)
+                                            </td>
+                                            <td>
+                                        @Html.DisplayFor(modelItem => item.PayableAmount)
+                                        </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Patients.PatientsId)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Patients.PatientsEmail)
+                                            </td>
+                                            <td>
+                                               @* <a class="btn btn-sm bg-success-light" asp-action="Edit" asp-route-id="@item.PatientsCardId">
+                                                    <i class="bi bi-pen"></i>
+                                                    Edit
+                                                </a>*@
+                                                <a class="btn btn-sm bg-success-light" asp-controller="PatientPayments" asp-action="Create" asp-route-id="@item.PatientsCardId">
+                                                    <i class="bi bi-pen"></i>
+                                                    Add Payment
+                                                </a>
+                                                @*Delete Button*@
+                                                <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal"
+                                                   href="#delete_modal">
+                                                    <i class="fe fe-trash"></i> Delete
+                                                </a>
+                                                @if (item.Status == 0)
+                                                {
+                                                    <a href="@Url.Action("Active", "PatientsIdcards", new { id = item.PatientsCardId })"><button type='button' class='btn btn-sm bg-success-light'>Active</button></a>
+                                                }
+                                                else
+                                                {
+                                                    <a href="@Url.Action("Deactive", "PatientsIdcards", new { id = item.PatientsCardId })"><button type='button' class='btn btn-sm bg-danger-light'>Deactive</button></a>
+                                                }
+                                            </td>
+                                            @*Delete Modal*@
+                                            <div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="form-content p-2">
+                                                                <h4 class="modal-title">Delete</h4>
+                                                                <p class="mb-4">Are you sure want to delete?</p>
+                                                                <a asp-action="DeleteConfirmed" asp-route-id="@item.PatientsCardId" class="btn btn-primary">Yes </a>
+                                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

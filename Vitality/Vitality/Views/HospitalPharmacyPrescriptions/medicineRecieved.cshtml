@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Vitality.Models.HospitalPharmacyPrescription>
+
+@{
+    ViewData["Title"] = "medicineRecieved";
+}
+
+<h1>medicineRecieved</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicines)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patients)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Medicines)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patients.PatientsId)
+            </td>
+            <td>
+                <a asp-action="DeleteConfirmed" asp-route-id="@item.PrescriptionId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

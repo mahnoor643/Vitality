@@ -1,0 +1,68 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@model Vitality.Models.NurseRegistration
+
+@{
+    ViewData["Title"] = "nurseEdit";
+}
+
+<h1>nurseEdit</h1>
+
+<h4>NurseRegistration</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="nurseEdit" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NurseRegistrationsId" />
+            <div class="form-group">
+                <label asp-for="NurseName" class="control-label"></label>
+                <input asp-for="NurseName" class="form-control" />
+                <span asp-validation-for="NurseName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NurseEmail" class="control-label"></label>
+                <input asp-for="NurseEmail" class="form-control" />
+                <span asp-validation-for="NurseEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NursePhoneNo" class="control-label"></label>
+                <input asp-for="NursePhoneNo" class="form-control" />
+                <span asp-validation-for="NursePhoneNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Degree" class="control-label"></label>
+                <select asp-for="Degree" class="form-control" asp-items="ViewBag.Degree"></select>
+                <span asp-validation-for="Degree" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NurseImg" class="control-label"></label>
+                <input asp-for="NurseImg" name="file" type="file" class="form-control" />
+                <span asp-validation-for="NurseImg" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

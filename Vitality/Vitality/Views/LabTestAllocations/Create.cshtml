@@ -1,0 +1,58 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model Vitality.Models.LabTestAllocation
+
+@{
+    ViewData["Title"] = "Lab Test";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Register Lab Test</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Lab Test</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label class="control-label">Lab Test</label>
+                                <select asp-for="LabTestId" class="form-control" asp-items="ViewBag.LabTestId"></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Patients Card ID</label>
+                                <select asp-for="PatientsCardId" class="form-control" asp-items="ViewBag.PatientsCardId"></select>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Register" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

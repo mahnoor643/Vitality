@@ -1,0 +1,80 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.DoctorsAppointment>
+
+@{
+    ViewData["Title"] = "Appointments";
+}
+
+
+<div class="col-md-7 col-lg-8 col-xl-9">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="mb-4">Patient Appointments</h4>
+            <div class="appointment-tab">
+
+                <div class="tab-content">
+
+                    <div class="tab-pane show active" id="upcoming-appointments">
+                        <div class="card card-table mb-0">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th>Patient's ID</th>
+                                                <th>Name</th>
+                                                <th>Date</th>
+                                                <th>Status</th>
+                                                <th>Time</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Patients.PatientsId)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Patients.PatientsName)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.DoctorAppointmentDate)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Status)
+                                                    </td>
+
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.DoctorAppointmentTimeNavigation.DoctorSlotTime1)
+                                                    </td>
+
+
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

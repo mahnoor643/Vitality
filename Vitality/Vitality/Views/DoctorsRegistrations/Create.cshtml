@@ -1,0 +1,84 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@model Vitality.Models.DoctorsRegistration
+
+@{
+    ViewData["Title"] = "Doctor Registration";
+}
+
+
+<div class="content top-space">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+
+                <div class="account-content">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-7 col-lg-6 login-left">
+                            <img src="~/../assets/img/login-banner.png" class="img-fluid" alt="Login Banner">
+                        </div>
+                        <div class="col-md-12 col-lg-6 login-right">
+                            <div class="login-header">
+                                <h3>Doctor Register <a asp-action="Create" asp-controller="PatientsRegistrations">Not a Doctor?</a></h3>
+                            </div>
+
+                            <form asp-action="Create" asp-controller="DoctorsRegistrations" method="post" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group form-focus">
+                                    <input asp-for="DoctorsName" required class="form-control" />
+                                    <label class="form-label">Your Name</label>
+                                    <span asp-validation-for="DoctorsName" class="text-danger"></span><br />
+                                </div>
+                                <div class="form-group form-focus">
+                                    <select asp-for="DoctorsDegree" class="form-control" asp-items="ViewBag.DoctorsDegree"></select>
+                                    <label class="form-label">Degree</label><br />
+                                </div>
+                                <div class="form-group form-focus">
+                                    <select asp-for="DoctorsCategory" class="form-control" asp-items="ViewBag.DoctorsCategory"></select>
+                                    <label class="form-label">Category</label><br />
+                                </div>
+                                <div class="form-group form-focus">
+                                    <input asp-for="DoctorsPhoneNo" required type="number" class="form-control" />
+                                    <label class="form-label">Phone #</label>
+                                    <span asp-validation-for="DoctorsPhoneNo" class="text-danger"></span><br />
+                                </div>
+                                @*<div class="form-group">
+                                <label asp-for="Status" class="control-label"></label>
+                                <input asp-for="Status" class="form-control" />
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                                </div>*@
+                                <div class="form-group form-focus">
+                                    <input asp-for="DoctorsEmail" required type="email" class="form-control" />
+                                    <label class="form-label">Email</label>
+                                    <span asp-validation-for="DoctorsEmail" class="text-danger"></span><br />
+                                </div>
+                                <div class="form-group form-focus">
+                                    <input asp-for="DoctorsPwd" required type="password" class="form-control" />
+                                    <label class="form-label">Password</label>
+                                    <span asp-validation-for="DoctorsPwd" class="text-danger"></span><br />
+                                </div>
+                                <div >
+                                    <input asp-for="DoctorsImg" required class="form-control" type="file" name="file" />
+                                    <label class="form-label">Image</label>
+                                    <span asp-validation-for="DoctorsImg" class="text-danger"></span><br />
+                                </div>
+                                <div class="form-group form-focus">
+                                    <input type="submit" value="Register" class="btn btn-primary" /><br /><br />
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

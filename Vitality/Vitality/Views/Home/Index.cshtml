@@ -1,0 +1,669 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@model doctorFeedbackFetch
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+@{
+    ViewData["Title"] = "Home";
+}
+<div class="main-wrapper">
+    <section class="banner-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div>
+                        @* <h1>Consult <span>Best Doctors</span> Your Nearby Location.</h1>
+                        <!-- <img src="" class="header-icon" alt="header-icon"> -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        <a href="booking.html" class="btn">Start a Consult</a>
+                        <div class="banner-arrow-img">
+                        <img src="~/../assets/img/arrow1.png" class="img-fluid" alt>
+                        </div>*@
+                    </div>
+                    <div>
+                        <form>
+                            @*<div class="search-input search-line">
+                            <i class="feather-search bficon"></i>
+                            <div class="form-group mb-0">
+                            <input type="text" class="form-control" placeholder="Search doctors, clinics, hospitals, etc">
+                            </div>
+                            </div>*@
+                            @*  <div class="search-input search-map-line">
+                            <i class="feather-map-pin"></i>
+                            <div class="form-group mb-0">
+                            <input type="text" class="form-control" placeholder="Location">
+                            <a class="current-loc-icon current_location" href="javascript:void(0);">
+                            <i class="feather-crosshair"></i>
+                            </a>
+                            </div>
+                            </div>*@
+                            @*<div class="search-input search-calendar-line">
+                            <i class="feather-calendar"></i>
+                            <div class="form-group mb-0">
+                            <input type="text" class="form-control datetimepicker" placeholder="Date">
+                            </div>
+                            </div>
+                            <div class="form-search-btn">
+                            <button class="btn" type="submit">Search</button>
+                            </div>*@
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        @*<img src="~/../assets/img/fornt-07.png" class="img-fluid" alt>*@
+                        <!-- <div class="banner-img1">
+                        <img src="~/../assets/img/banner-img1.png" class="img-fluid" alt>
+                        </div>
+                        <div class="banner-img2">
+                        <img src="~/../assets/img/banner-img2.png" class="img-fluid" alt>
+                        </div>
+                        <div class="banner-img3">
+                        <img src="~/../assets/img/banner-img3.png" class="img-fluid" alt> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+</div>
+
+<section class="specialities-section-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 aos" data-aos="fade-up">
+                <div class="section-header-one section-header-slider">
+                    <h2 class="section-title">Specialities</h2>
+                </div>
+            </div>
+            <div class="col-md-6 aos" data-aos="fade-up">
+                <div class="owl-nav slide-nav-1 text-end nav-control"></div>
+            </div>
+        </div>
+        <div class="owl-carousel specialities-slider-one owl-theme aos" data-aos="fade-up">
+            <div class="item">
+                <div class="specialities-item">
+                    <div class="specialities-img">
+                        <span><img src="~/../assets/img/heart.png" alt></span>
+                    </div>
+                    <p>Cardiology</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="specialities-item">
+                    <div class="specialities-img">
+                        <span><img src="~/../assets/img/brain.png" alt></span>
+                    </div>
+                    <p>Neurology</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="specialities-item">
+                    <div class="specialities-img">
+                        <span><img src="~/../assets/img/urology.png" alt></span>
+                    </div>
+                    <p>Urology</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="specialities-item">
+                    <div class="specialities-img">
+                        <span><img src="~/../assets/img/orthopedics.png" alt></span>
+                    </div>
+                    <p>Orthopedic</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="specialities-item">
+                    <div class="specialities-img">
+                        <span><img src="~/../assets/img/tooth.png" alt></span>
+                    </div>
+                    <p>Dentist</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="specialities-item">
+                    <div class="specialities-img">
+                        <span><img src="~/../assets/img/orthopedics.png" alt></span>
+                    </div>
+                    <p>Ophthalmology</p>
+                </div>
+            </div>
+            <!-- <div class="item">
+            <div class="specialities-item">
+            <div class="specialities-img">
+            <span><img src="~/../assets/img/" alt></span>
+            </div>
+            <p>Neurology</p>
+            </div>
+            </div> -->
+        </div>
+        @* <div class="specialities-btn aos" data-aos="fade-up">
+        <a href="search.html" class="btn">
+        See All Specialities
+        </a>
+        </div>*@
+    </div>
+</section>
+
+@if(Model.DoctorsRegistrations!=null){
+<section class="doctors-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 aos" data-aos="fade-up">
+                <div class="section-header-one section-header-slider">
+                    <h2 class="section-title">Best Doctors</h2>
+                </div>
+            </div>
+            <div class="col-md-6 aos" data-aos="fade-up">
+                <div class="owl-nav slide-nav-2 text-end nav-control"></div>
+            </div>
+        </div>
+        <div class="owl-carousel doctor-slider-one owl-theme aos" data-aos="fade-up">
+            @foreach(var doctor in Model.DoctorsRegistrations){
+            <div class="item">
+                <div class="doctor-profile-widget">
+                    <div class="doc-pro-img">
+                        <div>
+                            <div class="doctor-profile-img">
+                                <img src="@Url.Content(doctor.DoctorsImg)" style="height:300px;" class="img-fluid" alt>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-pro-info">
+                            <div class="doc-pro-name">
+                                <a href="doctor-profile.html">@doctor.DoctorsName</a>
+                                <p>@doctor.DoctorsCategoryNavigation.DoctorCategory1</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+                }
+@*
+            <div class="item">
+                <div class="doctor-profile-widget">
+                    <div class="doc-pro-img">
+                        <a href="doctor-profile.html">
+                            <div class="doctor-profile-img">
+                                <img src="~/../assets/img/doctors/doctor-04.jpg" class="img-fluid" alt>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-pro-info">
+                            <div class="doc-pro-name">
+                                <a href="doctor-profile.html">Dr. Darren Elder</a>
+                                <p>Neurology</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="doctor-profile-widget">
+                    <div class="doc-pro-img">
+                        <a href="doctor-profile.html">
+                            <div class="doctor-profile-img">
+                                <img src="~/../assets/img/doctors/doctor-05.jpg" class="img-fluid" alt>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-pro-info">
+                            <div class="doc-pro-name">
+                                <a href="doctor-profile.html">Dr. Sofia Brient</a>
+                                <p>Urology</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="doctor-profile-widget">
+                    <div class="doc-pro-img">
+                        <a href="doctor-profile.html">
+                            <div class="doctor-profile-img">
+                                <img src="~/../assets/img/doctors/doctor-02.jpg" class="img-fluid" alt>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-pro-info">
+                            <div class="doc-pro-name">
+                                <a href="doctor-profile.html">Dr. Paul Richard</a>
+                                <p>Orthopedic</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="doctor-profile-widget">
+                    <div class="doc-pro-img">
+                        <a href="doctor-profile.html">
+                            <div class="doctor-profile-img">
+                                <img src="~/../assets/img/doctors/doctor-01.jpg" class="img-fluid" alt>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="doc-content">
+                        <div class="doc-pro-info">
+                            <div class="doc-pro-name">
+                                <a href="doctor-profile.html">Dr. John Doe</a>
+                                <p>Dentist</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+*@
+        </div>
+    </div>
+</section>
+
+}
+
+
+<section class="work-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 work-img-info aos" data-aos="fade-up">
+                <div class="work-img">
+                    <img src="~/../assets/img/girl-08.png" class="img-fluid" alt>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 work-details">
+                <div class="section-header-one aos" data-aos="fade-up">
+                    <h5>How it Works</h5>
+                    <h2 class="section-title">4 easy steps to get your solution</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 aos" data-aos="fade-up">
+                        <div class="work-info">
+                            <div class="work-icon">
+                                <span><img src="~/../assets/img/loupe.png" alt></span>
+                            </div>
+                            <div class="work-content">
+                                <h5>Search Doctor</h5>
+                                <p>Discover qualified doctors for personalized healthcare</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 aos" data-aos="fade-up">
+                        <div class="work-info">
+                            <div class="work-icon">
+                                <span><img src="~/../assets/img/user.png" alt></span>
+                            </div>
+                            <div class="work-content">
+                                <h5>Check Doctor Profile</h5>
+                                <p>Discover doctor credentials by checking their profile</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 aos" data-aos="fade-up">
+                        <div class="work-info">
+                            <div class="work-icon">
+                                <span><img src="~/../assets/img/schedule.png" alt></span>
+                            </div>
+                            <div class="work-content">
+                                <h5>Schedule Appointment</h5>
+                                <p>Book appointments effortlessly through our online scheduling platform</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 aos" data-aos="fade-up">
+                        <div class="work-info">
+                            <div class="work-icon">
+                                <span><img src="~/../assets/img/bulb.png" alt></span>
+                            </div>
+                            <div class="work-content">
+                                <h5>Get Your Solution</h5>
+                                <p>Find the solution you need with personalized care and expertise.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="articles-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 aos" data-aos="fade-up">
+                <div class="section-header-one text-center">
+                    @* <h2 class="section-title">Latest Articles</h2>*@
+                </div>
+            </div>
+        </div>
+
+</section>
+
+
+
+
+
+<section class="faq-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header-one text-center aos" data-aos="fade-up">
+                    <h5>Get Your Answer</h5>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 aos" data-aos="fade-up">
+                <div class="faq-img">
+                    <img src="~/../assets/img/faq-img.png" class="img-fluid" alt="img">
+                    <div class="faq-patients-count">
+                        <div class="faq-smile-img">
+                            <img src="~/../assets/img/icons/smiling-icon.svg" alt="icon">
+                        </div>
+                        <div class="faq-patients-content">
+                            <h4><span class="count-digit">95</span>k+</h4>
+                            <p>Happy Patients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="faq-info aos" data-aos="fade-up">
+                    <div class="accordion" id="faq-details">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <a href="javascript:void(0);" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Is emergency care available at all times?
+                                </a>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faq-details">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>Yes, our emergency department operates 24/7 to provide immediate medical care for any urgent health concerns. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <a href="javascript:void(0);" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How can I get my medical test results?
+                                </a>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq-details">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>You can usually access your test results through our patient portal. If you have any questions about your results, don't hesitate to contact our healthcare team. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <a href="javascript:void(0);" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How can I pay my hospital bill?
+                                </a>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq-details">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>You can pay your bill online through our secure payment portal, by phone, or in person at our billing department. We also offer payment plans for eligible patients. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <a href="javascript:void(0);" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How can I provide feedback about my hospital experience?
+                                </a>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faq-details">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>We value your feedback. You can share your experience through our patient satisfaction surveys, which help us continually improve our services</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <a href="javascript:void(0);" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Can I visit a patient in the hospital?
+                                </a>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faq-details">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>Yes, visitors are welcome during designated visiting hours. Check with our front desk for the latest visiting hours and any specific guidelines in place.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@if(Model.Feedback!=null){
+<section class="testimonial-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="testimonial-slider slick">
+                    @*<div class="testimonial-grid">
+                        <div class="testimonial-info">
+                            <div class="testimonial-img">
+                                <img src="~/../assets/img/clients/client-01.jpg" class="img-fluid" alt>
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="section-header section-inner-header testimonial-header">
+                                    <h5>Testimonials</h5>
+                                    <h2>What Our Client Says</h2>
+                                </div>
+                                <div class="testimonial-details">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <h6><span>John Doe</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-grid">
+                        <div class="testimonial-info">
+                            <div class="testimonial-img">
+                                <img src="~/../assets/img/clients/client-02.jpg" class="img-fluid" alt>
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="section-header section-inner-header testimonial-header">
+                                    <h5>Testimonials</h5>
+                                    <h2>What Our Client Says</h2>
+                                </div>
+                                <div class="testimonial-details">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <h6><span>Amanda Warren</span> </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-grid">
+                        <div class="testimonial-info">
+                            <div class="testimonial-img">
+                                <img src="~/../assets/img/clients/client-03.jpg" class="img-fluid" alt>
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="section-header section-inner-header testimonial-header">
+                                    <h5>Testimonials</h5>
+                                    <h2>What Our Client Says</h2>
+                                </div>
+                                <div class="testimonial-details">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <h6><span>Betty Carlson</span> </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-grid">
+                        <div class="testimonial-info">
+                            <div class="testimonial-img">
+                                <img src="~/../assets/img/clients/client-04.jpg" class="img-fluid" alt>
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="section-header section-inner-header testimonial-header">
+                                    <h5>Testimonials</h5>
+                                    <h2>What Our Client Says</h2>
+                                </div>
+                                <div class="testimonial-details">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <h6><span>Veronica</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>*@
+                    @foreach(var feedback in Model.Feedback){
+                    <div class="testimonial-grid">
+                        <div class="testimonial-info">
+                            <div class="testimonial-img">
+                                <img src="~/../assets/img/testimonial.png" class="img-fluid" alt>
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="section-header section-inner-header testimonial-header">
+                                    <h5>Testimonials</h5>
+                                    <h2>What Our Client Says</h2>
+                                </div>
+                                <div class="testimonial-details">
+                                    <p>@feedback.Feedback1</p>
+                                    <h6><span>@feedback.UserName</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+}
+
+<section class="partners-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header-one text-center aos" data-aos="fade-up">
+                    <h2 class="section-title">Our Partners</h2>
+                </div>
+            </div>
+        </div>
+        <div class="partners-info aos" data-aos="fade-up">
+            <ul class="owl-carousel partners-slider d-flex">
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-1.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-2.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-3.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-4.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-5.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-6.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-1.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-2.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-3.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-4.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-5.svg" alt="partners">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img class="img-fluid" src="~/../assets/img/partners/partners-6.svg" alt="partners">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

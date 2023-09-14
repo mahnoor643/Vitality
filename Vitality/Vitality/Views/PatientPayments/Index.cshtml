@@ -1,0 +1,105 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.PatientPayment>
+
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Patient Cards</h3>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <!-- Content for the main section (9 columns) -->
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-end">
+                        <form action="@Url.Action("Index","PatientsIdcards")" method="get" class="d-flex justify-content-end">
+                            <input class="form-control" name="searchresult" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-sm bg-success-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Payment</th>
+                                        <th>Patient Card ID</th>
+                                        <th>Status</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Pay)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PatientsCard.PatientsCardId)
+                                            </td>
+                                            <td>
+                                                @if (item.Status == 0)
+                                                {
+                                                    <p>Pending</p>
+                                                }else
+                                                {
+                                                <p>Paid</p>
+                                                }
+                                            </td>
+                                            <td>
+                                                @if (item.Status == 0)
+                                                {
+                                                    <a asp-action="deduct" class="btn btn-sm bg-success-light" asp-route-id="@item.PayId">Deduct Amount</a>
+                                                }
+                                                @*Delete Button*@
+                                                <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal"
+                                                   href="#delete_modal">
+                                                    <i class="fe fe-trash"></i> Delete
+                                                </a>
+                                            </td>
+                                            @*Delete Modal*@
+                                            <div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="form-content p-2">
+                                                                <h4 class="modal-title">Delete</h4>
+                                                                <p class="mb-4">Are you sure want to delete?</p>
+                                                                <a asp-action="DeleteConfirmed" asp-route-id="@item.PayId" class="btn btn-primary">Yes </a>
+                                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>

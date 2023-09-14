@@ -1,0 +1,81 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model Vitality.Models.NurseRegistration
+
+@{
+    ViewData["Title"] = "Edit Nurse Info";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Update Nurse Details</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Nurse Details</h4>
+                    </div>
+                    <div class="card-body">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NurseRegistrationsId" />
+            <div class="form-group">
+                <label class="control-label">Name</label>
+                <input asp-for="NurseName" required class="form-control" />
+                <span asp-validation-for="NurseName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Email</label>
+                <input required type="email" required asp-for="NurseEmail" class="form-control" />
+                <span asp-validation-for="NurseEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Phone #</label>
+                <input required type="number" required asp-for="NursePhoneNo" class="form-control" />
+                <span asp-validation-for="NursePhoneNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Degree</label>
+                <select asp-for="Degree" class="form-control" asp-items="ViewBag.Degree"></select>
+                <span asp-validation-for="Degree" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Image</label>
+                <input asp-for="NurseImg" required type="file" name="file" class="form-control" />
+                <span asp-validation-for="NurseImg" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

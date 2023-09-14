@@ -1,0 +1,356 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_userLayout.cshtml";
+}
+@model patientDashboard
+
+@{
+    ViewData["Title"] = "dashboard";
+}
+
+
+<style>
+    .breadcrumb-bar-two {
+        position: relative;
+        background-image: url('https://cdn.pixabay.com/photo/2014/12/10/20/56/medical-563427_1280.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+
+    .container1 {
+        padding: 100px 0;
+    }
+
+    .row.align-items-center.inner-banner {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+    }
+
+    /* Add any other styles you need */
+
+</style>
+<div class="breadcrumb-bar-two">
+    <div class="container1">
+
+        <div class="col-md-12 col-12 text-center">
+            <h2 class="breadcrumb-title">Dashboard</h2>
+            <nav aria-label="breadcrumb" class="page-breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Dashboard</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+                <div class="profile-sidebar">
+                    <div class="widget-profile pro-widget-content">
+                        <div class="profile-info-widget">
+                            @foreach (var item in Model.PatientsRegistration)
+                            {
+                                <div class="profile-det-info">
+                                    <h3> @Html.DisplayFor(modelItem => item.PatientsName)</h3>
+                                    <div class="patient-details">
+                                        <h5>@Html.DisplayFor(modelItem => item.PatientsEmail)</h5>
+                                        <h5 class="mb-0">@Html.DisplayFor(modelItem => item.PatientsPhoneNo)</h5>
+                                    </div>
+                                </div><br/>
+                            }
+
+
+
+
+
+
+                            @if (Model.PatientsCard != null)
+                            {
+                                
+                                                @foreach (var item in Model.PatientsCard)
+                                                {
+                                                    <div class="profile-det-info">
+                                                        <h5><span>Your Card ID: </span>@item.PatientsCardId</h5>
+                                                        <h5><span>Amount To Pay: </span>@item.PayableAmount</h5>
+                                                        <h5><span>Card Valid Till: </span>@item.ValidDate</h5>
+                                                    </div>
+                                                }
+                                            
+                            }
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+           
+
+            <div class="col-md-7 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-dashboard-top">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-dashboard-top">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-dashboard-top">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-dashboard-top">
+                    </div>
+                </div>
+                <div class="row patient-graph-col">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Check Your Health Daily</h4>
+                            </div>
+                            <div class="card-body pt-2 pb-2 mt-1 mb-1">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-graph-box">
+                                        <a href="#" class="graph-box" data-bs-toggle="modal" data-bs-target="#graph1">
+                                            <div>
+                                                <h4>BMI Status</h4>
+                                            </div>
+                                            <div class="graph-img">
+                                                <img src="~/../assets/img/shapes/graph-01.png" alt>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-graph-box">
+                                        <a href="#" class="graph-box pink-graph" data-bs-toggle="modal" data-bs-target="#graph2">
+                                            <div>
+                                                <h4>Heart Rate Status</h4>
+                                            </div>
+                                            <div class="graph-img">
+                                                <img src="~/../assets/img/shapes/graph-02.png" alt>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-graph-box">
+                                        <a href="#" class="graph-box sky-blue-graph" data-bs-toggle="modal" data-bs-target="#graph3">
+                                            <div>
+                                                <h4>FBC Status</h4>
+                                            </div>
+                                            <div class="graph-img">
+                                                <img src="~/../assets/img/shapes/graph-03.png" alt>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 patient-graph-box">
+                                        <a href="#" class="graph-box orange-graph" data-bs-toggle="modal" data-bs-target="#graph4">
+                                            <div>
+                                                <h4>Weight Status</h4>
+                                            </div>
+                                            <div class="graph-img">
+                                                <img src="~/../assets/img/shapes/graph-04.png" alt>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @if (Model.DoctorsAppointment != null)
+                {
+                    <div class="card">
+                        <div class="card-body pt-0">
+                            <div class="card-header">
+                                <div class="invoice-item">
+                                    <div class="row">
+
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Doctor</th>
+                                                    <th scope="col">Appointment Date</th>
+                                                    <th scope="col">Status</th>
+                                                    <th scope="col">Time</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model.DoctorsAppointment)
+                                                {
+                                                    <tr>
+                                                        <th>@item.DoctorAppointmentNavigation.DoctorsName</th>
+                                                        <td>@item.DoctorAppointmentDate</td>
+                                                        <td>@item.Status</td>
+                                                        <td>@item.DoctorAppointmentTimeNavigation.DoctorSlotTime1</td>
+                                                    </tr>
+                                                }
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+    @*about us*@
+
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-img-info">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="about-inner-img">
+                                    <div class="about-img">
+                                        <img src="~/../assets/img/about-img1.jpg" class="img-fluid" alt>
+                                    </div>
+                                    <div class="about-img">
+                                        <img src="~/../assets/img/about-img2.jpg" class="img-fluid" alt>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-inner-img">
+                                    <div class="about-box">
+                                        <h4>Over 25+ Years Experience</h4>
+                                    </div>
+                                    <div class="about-img">
+                                        <img src="~/../assets/img/about-img3.jpg" class="img-fluid" alt>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="section-inner-header about-inner-header">
+                        <h6>About Our Company</h6>
+                        <h2>We Are Always Ensure Best Medical Treatment For Your Health</h2>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-content-details">
+                            <p>
+                                Welcome to VITALITY of healthcare excellence committed
+                                to serving the community with unwavering dedication. With a legacy rooted in healing, innovation, and compassion, we stand as a pillar of trust for your well-being. Our team of skilled medical professionals, advanced technology, and patient-centric approach come together to create an environment where your health is our priority. As we journey forward, we continue to redefine healthcare, ensuring that every individual
+                                who walks through our doors receives not only
+                                medical care but also warmth, empathy, and a path to a healthier, happier life.
+                            </p>
+                        </div>
+                        <div class="about-contact">
+                            <div class="about-contact-icon">
+                                <span><img src="~/../assets/img/icons/phone-icon.svg" alt></span>
+                            </div>
+                            <div class="about-contact-text">
+                                <p>Need Emergency?</p>
+                                <h4>+1 315 369 5943</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-inner-header text-center">
+                        <h2>Why Choose Us</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <div class="card why-choose-card w-100">
+                        <div class="card-body">
+                            <div class="why-choose-icon">
+                                <span><img src="~/../assets/img/icons/choose-01.svg" alt></span>
+                            </div>
+                            <div class="why-choose-content">
+                                <h4> Excellence</h4>
+                                <p>
+                                    At our commitment to excellence drives every aspect of our care.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <div class="card why-choose-card w-100">
+                        <div class="card-body">
+                            <div class="why-choose-icon">
+                                <span><img src="~/../assets/img/icons/choose-02.svg" alt></span>
+                            </div>
+                            <div class="why-choose-content">
+                                <h4>Compassion</h4>
+                                <p>At the heart of VITALITY is a deep sense of compassion for our patients.  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <div class="card why-choose-card w-100">
+                        <div class="card-body">
+                            <div class="why-choose-icon">
+                                <span><img src="~/../assets/img/icons/choose-03.svg" alt></span>
+                            </div>
+                            <div class="why-choose-content">
+                                <h4>Expertise</h4>
+                                <p>
+                                    With decades of combined medical expertise, our team have good skill.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <div class="card why-choose-card w-100">
+                        <div class="card-body">
+                            <div class="why-choose-icon">
+                                <span><img src="~/../assets/img/icons/choose-04.svg" alt></span>
+                            </div>
+                            <div class="why-choose-content">
+                                <h4> Innovation</h4>
+                                <p>
+                                    Embracing innovation is a cornerstone of our approach at VITALITY.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

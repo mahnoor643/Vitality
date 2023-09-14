@@ -1,0 +1,220 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.Bed>
+
+@{
+    ViewData["Title"] = "Beds";
+}
+
+@*<h1>Index</h1>
+<form action="@Url.Action("Index","Beds")" method="get" class="d-flex">
+    <input class="form-control" name="searchresult" style="height: 56px; width: 360px;" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn" type="submit">Search</button>
+</form>*@
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BedId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bed1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BedAmount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+            @Html.DisplayFor(modelItem => item.Status)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BedId)
+                </td>
+                <td>
+                    @if (item.Status == 1)
+                    {
+                        <p>Active</p>
+                    }
+                    else
+                    {
+                        <p>Deactive</p>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bed1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BedAmount)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BedId">Edit</a> |
+                    <a asp-action="DeleteCpnfirmed" asp-route-id="@item.BedId">Delete</a>
+                    @if (item.Status == 0)
+                    {
+                        <a href="@Url.Action("Create", "BedAllotments", new { id = item.BedId })"><button type='button' class='btn btn-rounded btn-success'>Allot Bed</button></a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Deactive", "Beds", new { id = item.BedId })"><button type='button' class='btn btn-rounded btn-danger'>Deactive</button></a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Activated Beds</h3>
+                    @*<ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Reviews</li>
+                    </ul>*@
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <!-- Content for the main section (9 columns) -->
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-end">
+                        <!-- Searching input box (3 columns) -->
+                        <form action="@Url.Action("Index","Beds")" method="get" class="d-flex justify-content-end">
+                            <input class="form-control" name="searchresult" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-sm bg-success-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Bed ID</th>
+                                        <th>Status</th>
+                                        <th>Bed</th>
+                                        <th>Amount</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            @*<td>
+                                        @Html.DisplayFor(modelItem => item.Status)
+                                        </td>*@
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.BedId)
+                                            </td>
+                                            <td>
+                                                @if (item.Status == 1)
+                                                {
+                                                    <p>Active</p>
+                                                }
+                                                else
+                                                {
+                                                    <p>Deactive</p>
+                                                }
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Bed1)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.BedAmount)
+                                            </td>
+                                            <td class="text-end">
+                                                <div class="actions">
+                                                    @*Edit Button*@
+                                                    <a class="btn btn-sm bg-success-light" asp-action="Edit" asp-route-id="@item.BedId">
+                                                        <i class="bi bi-pen" ></i>
+                                                        Edit
+                                                    </a>
+                                                    @*Delete Button*@
+                                                    <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal"
+                                                       href="#delete_modal">
+                                                        <i class="fe fe-trash"></i> Delete
+                                                    </a>
+
+                                                    @*Conditions for button*@
+                                                    @if (item.Status == 0)
+                                                    {
+                                                        <a class="btn btn-sm bg-success-light" href="@Url.Action("Create", "BedAllotments", new { id = item.BedId })"> <i class="bi bi-check-circle-fill"></i> Allot Bed</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a class="btn btn-sm bg-success-light" href="@Url.Action("Deactive", "Beds", new { id = item.BedId })"><i class="bi bi-x-circle"></i> Deactive</a>
+                                                    }
+                                                </div>
+                                            </td>
+                                                <div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-body">
+                                                                <div class="form-content p-2">
+                                                                    <h4 class="modal-title">Delete</h4>
+                                                                    <p class="mb-4">Are you sure want to delete?</p>
+                                                                    <a asp-action="DeleteConfirmed" asp-route-id="@item.BedId" class="btn btn-primary">Yes </a>
+                                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

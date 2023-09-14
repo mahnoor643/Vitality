@@ -1,0 +1,149 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model IEnumerable<Vitality.Models.DoctorsRegistration>
+
+@{
+    ViewData["Title"] = "Doctors List";
+}
+
+@*<p>@Context.Session.GetInt32(SessionVariables.SessionDoctorsID);</p>
+*@
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Doctors List</h3>
+                    @*<ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Reviews</li>
+                    </ul>*@
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="datatable table table-hover table-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Phone #</th>
+                                        <th>Status</th>
+                                        <th>Email</th>
+                                        <th>Password</th>
+                                        <th>Image</th>
+                                        <th>Category</th>
+                                        <th>Degree</th>
+                                        <th> </th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsPhoneNo)
+                                            </td>
+                                            <td>
+                                                @* @Html.DisplayFor(modelItem => item.Status)*@
+                                                @if (item.Status == 1)
+                                                {
+                                                    <p>Active</p>
+                                                }
+                                                else if (item.Status == 3)
+                                                {
+                                                    <p>Active As Best Doctor</p>
+                                                }
+                                                else
+                                                {
+                                                    <p>Deactive</p>
+                                                }
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsEmail)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsPwd)
+                                            </td>
+                                            <td>
+                                                <h2 class="table-avatar">
+                                                    <a class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="@Url.Content(item.DoctorsImg)" alt="User Image"></a>
+                                                    <p>@Html.DisplayFor(modelItem => item.DoctorsName)</p>
+                                                </h2>
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsCategoryNavigation.DoctorCategory1)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DoctorsDegreeNavigation.Degree1)
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-sm bg-success-light" asp-action="doctorEdit" asp-route-id="@item.DoctorsId">
+                                                    <i class="bi bi-pen"></i>
+                                                    Edit
+                                                </a>
+
+                                                <a class="btn btn-sm bg-danger-light" data-bs-toggle="modal"
+                                                   href="#delete_modal">
+                                                    <i class="fe fe-trash"></i> Delete
+                                                </a>
+                                                @if (item.Status == 0)
+                                                {
+                                                    <a href="@Url.Action("Active", "DoctorsRegistrations", new { id = item.DoctorsId })"><button type='button' class='btn btn-sm bg-success-light'>Active</button></a>
+                                                }
+                                                else
+                                                {
+                                                    <a href="@Url.Action("Deactive", "DoctorsRegistrations", new { id = item.DoctorsId })"><button type='button' class='btn btn-sm bg-danger-light'>Deactive</button></a>
+                                                    if (item.Status != 3)
+                                                    {
+                                                        <a href="@Url.Action("bestDoctor", "DoctorsRegistrations", new { id = item.DoctorsId })"><button type='button' class='btn btn-sm bg-success-light'>Add to best Doctor</button></a>
+                                                    }
+                                                }
+                                            </td>
+                                            @*Delete Modal*@
+                                            <div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="form-content p-2">
+                                                                <h4 class="modal-title">Delete</h4>
+                                                                <p class="mb-4">Are you sure want to delete?</p>
+                                                                <a asp-action="DeleteConfirmed" asp-route-id="@item.DoctorsId" class="btn btn-primary">Yes </a>
+                                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

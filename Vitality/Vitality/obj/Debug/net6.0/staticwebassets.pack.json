@@ -1,0 +1,3289 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Vitality.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vitality.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\NurseImgs\\doctor-07.jpg",
+      "PackagePath": "staticwebassets\\NurseImgs\\doctor-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\NurseImgs\\doctor-24.jpg",
+      "PackagePath": "staticwebassets\\NurseImgs\\doctor-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\NurseImgs\\sqldown2.PNG",
+      "PackagePath": "staticwebassets\\NurseImgs\\sqldown2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\adminAssets\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adminAssets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\adminAssets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\css\\feathericon.min.css",
+      "PackagePath": "staticwebassets\\adminAssets\\css\\feathericon.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\adminAssets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\adminAssets\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\MaterialIcons-Regular.eot",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\MaterialIcons-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\MaterialIcons-Regular.html",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\MaterialIcons-Regular.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\MaterialIcons-Regular.ttf",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\MaterialIcons-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\MaterialIcons-Regular.woff",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\MaterialIcons-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\feathericon.eot",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\feathericon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\feathericon.svg",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\feathericon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\feathericon.ttf",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\feathericon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\feathericon.woff",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\feathericon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\feathericond41d.eot",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\feathericond41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\fontawesome-webfont3e6e.html",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\fontawesome-webfont3e6e.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\adminAssets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-01.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-02.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-03.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-04.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-05.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-06.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-07.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-08.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-09.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\doctors\\doctor-thumb-10.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\doctors\\doctor-thumb-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\img-01.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\img-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\logo-small.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\logo-small.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\logo-white.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient1.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient10.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient11.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient12.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient13.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient14.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient15.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient2.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient3.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient4.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient5.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient6.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient7.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient8.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\patients\\patient9.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\patients\\patient9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\profiles\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\profiles\\avatar-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\profiles\\avatar-02.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\profiles\\avatar-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\profiles\\avatar-03.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\profiles\\avatar-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\profiles\\avatar-04.jpg",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\profiles\\avatar-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\specialities\\specialities-01.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\specialities\\specialities-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\specialities\\specialities-02.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\specialities\\specialities-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\specialities\\specialities-03.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\specialities\\specialities-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\specialities\\specialities-04.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\specialities\\specialities-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\specialities\\specialities-05.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\specialities\\specialities-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\testimonial.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\testimonial.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\img\\vita-05.png",
+      "PackagePath": "staticwebassets\\adminAssets\\img\\vita-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\chart.morris.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\chart.morris.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\form-validation.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\form-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\jquery-3.6.4.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\jquery-3.6.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\jquery.maskedinput.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\jquery.maskedinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\mask.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\mask.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\script.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\plugins\\datatables\\datatables.min.css",
+      "PackagePath": "staticwebassets\\adminAssets\\plugins\\datatables\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\plugins\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\plugins\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\plugins\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\plugins\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\plugins\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\adminAssets\\plugins\\morris\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\plugins\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\plugins\\morris\\morris.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\plugins\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\plugins\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\adminAssets\\plugins\\slimscroll\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\adminAssets\\plugins\\slimscroll\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\css\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\feather.css",
+      "PackagePath": "staticwebassets\\assets\\css\\feather.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\fonts\\Feather144f.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Feather144f.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\fonts\\Feather144f.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Feather144f.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\fonts\\Feather144f.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Feather144f.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\about-img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\about-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\about-img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\aboutus-fift-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\aboutus-fift-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\app-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\app-img.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\app-img.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\app-store-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app-store-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\app-store.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app-store.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\appointment-ryt-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\appointment-ryt-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\arrow.png",
+      "PackagePath": "staticwebassets\\assets\\img\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\arrow1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\arrow1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-fift-icon1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-fift-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-fift-icon2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-fift-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-fift-icon3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-fift-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-fift-icon4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-fift-icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-fift-icon5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-fift-icon5.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-fift-icon6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-fift-icon6.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-fift-icon7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-fift-icon7.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-fift-icon8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-fift-icon8.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-right-img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-right-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-right-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-right-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-sixteen-img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-sixteen-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\ban-sixteen-img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban-sixteen-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-11.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-fifteen-ryt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-fifteen-ryt.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-fifteen-vd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-fifteen-vd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-fifteen.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-fifteen.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-six-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-six-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\banner-sixteen-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-sixteen-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\Map-thirteen.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\Map-thirteen.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\app-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\app-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\appoint-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\appoint-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\atom-bond.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\atom-bond.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\baby-star.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\baby-star.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\ban-bg-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\ban-bg-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\ban-bg-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\ban-bg-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\banner-11-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\banner-11-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\big-paw.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\big-paw.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\center-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\center-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\clients-says.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\clients-says.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\clinic-bg-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\clinic-bg-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\cloud-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\cloud-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\cloud-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\cloud-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\counter-bg-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\counter-bg-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\counter-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\counter-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\doctor-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\doctor-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\doctor-shape-img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\doctor-shape-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\doctor-shape-img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\doctor-shape-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\dot-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\dot-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\dot-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\dot-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\ecg-wave.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\ecg-wave.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\ecg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\ecg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\footer-map.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\footer-map.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\gold-star.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\gold-star.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\hand.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\hand.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\header-after.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\header-after.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\health-care.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\health-care.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\heart-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\heart-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\heart-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\heart-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\heart-plus.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\heart-plus.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\hexagen-group-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\hexagen-group-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\hexagen-group-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\hexagen-group-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\hexagen-group-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\hexagen-group-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\hexagen-group-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\hexagen-group-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\hexagon-group-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\hexagon-group-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-10-banner-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-10-banner-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-10-banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-10-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-banner-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-banner-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-banner-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-banner-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-banner-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-banner-bg-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-banner-bg-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-banner-bg-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-pricing-bg-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-pricing-bg-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-pricing-bg-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-pricing-bg-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-pricing-bg-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-pricing-bg-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-testimonial.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-testimonial.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-12-why-us.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-12-why-us.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-13-banner-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-13-banner-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\home-13-banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\home-13-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pink-star.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pink-star.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pluse-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pluse-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pluse-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pluse-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pluse-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pluse-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pluse-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pluse-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pluse-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pluse-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pricing-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pricing-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pulse-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pulse-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\pulse-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\pulse-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\rainbow-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\rainbow-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\ring-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\ring-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\ring-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\ring-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\service-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\service-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\small-paw.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\small-paw.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\star-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\star-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\store-bg-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\store-bg-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\store-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\store-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bg\\two-paw.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\two-paw.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-thumb-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-thumb-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-thumb-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-thumb-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-thumb-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-thumb-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-thumb-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-thumb-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\blog-thumb-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-thumb-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\eye-blog-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\eye-blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\eye-blog-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\eye-blog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\eye-blog-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\eye-blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\eye-blog-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\eye-blog-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\veterinary-blog-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\veterinary-blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\veterinary-blog-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\veterinary-blog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\blog\\veterinary-blog-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\veterinary-blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\book-appointment-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\book-appointment-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\brain.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brain.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\bulb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bulb.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\category\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\category\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\category\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\category\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\category\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\check.png",
+      "PackagePath": "staticwebassets\\assets\\img\\check.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\choose-us-six.png",
+      "PackagePath": "staticwebassets\\assets\\img\\choose-us-six.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\chooseus-ryt-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\chooseus-ryt-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\chooseus-ryt-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\chooseus-ryt-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\client-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\re-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\re-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\re-image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\re-image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\re-image-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\re-image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\re-image-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\re-image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\re-image-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\re-image-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\re-image-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\re-image-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\re-image-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\re-image-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clients\\re-image-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\re-image-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\clinic-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\clinic-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\service-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\service-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\service-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\service-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\service-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\clinic\\service-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\clinic\\service-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\cloud-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cloud-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\coming-soon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\coming-soon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\contact-fourteen.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-fourteen.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\contact-icon2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\contact-icon3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doc-slide-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\doc-slide-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctor-banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\doctor-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctor.png",
+      "PackagePath": "staticwebassets\\assets\\img\\doctor.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-22.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-23.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-24.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-25.png",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-25.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-26.png",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-26.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-27.png",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-27.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\doctor-thumb-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\doctor-thumb-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\eye-doctor-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\eye-doctor-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\eye-doctor-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\eye-doctor-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\eye-doctor-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\eye-doctor-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\eye-doctor-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\eye-doctor-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\eye-doctor-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\eye-doctor-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\logosV-05-05.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\logosV-05-05.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\veterinary-doctor-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\veterinary-doctor-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\veterinary-doctor-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\veterinary-doctor-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\veterinary-doctor-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\veterinary-doctor-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\doctors\\veterinary-doctor-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\doctors\\veterinary-doctor-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\down-arrow-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\error-404.png",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\error-500.png",
+      "PackagePath": "staticwebassets\\assets\\img\\error-500.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\experts-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\experts-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\experts-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\experts-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\eye.png",
+      "PackagePath": "staticwebassets\\assets\\img\\eye.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\faq-img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\faq-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\faq-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\faq-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\faq\\faq-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\faq\\faq-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\feature-service-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\feature-service-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\feature-service-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\featured-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\featured-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\facility-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\facility-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\facility-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\facility-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\facility-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\facility-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\facility-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\facility-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\facility-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\facility-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\facility-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\facility-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\facility-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\facility-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\features\\feature.png",
+      "PackagePath": "staticwebassets\\assets\\img\\features\\feature.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\feedback-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\feedback-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\feedback-fifteen.png",
+      "PackagePath": "staticwebassets\\assets\\img\\feedback-fifteen.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\feedback-inner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\feedback-inner.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\feedback-six.png",
+      "PackagePath": "staticwebassets\\assets\\img\\feedback-six.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\feedback-sixteen.png",
+      "PackagePath": "staticwebassets\\assets\\img\\feedback-sixteen.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\fifteen-bg-icon-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\fifteen-bg-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\fifteen-bg-icon-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\fifteen-bg-icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\fifteen-bg-icon-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\fifteen-bg-icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\flag\\gb.html",
+      "PackagePath": "staticwebassets\\assets\\img\\flag\\gb.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\flag\\india.html",
+      "PackagePath": "staticwebassets\\assets\\img\\flag\\india.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\flag\\ng.html",
+      "PackagePath": "staticwebassets\\assets\\img\\flag\\ng.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\flag\\usa.html",
+      "PackagePath": "staticwebassets\\assets\\img\\flag\\usa.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\flags\\flag-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\flags\\flag-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\flags\\flag-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\flags\\flag-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\flags\\flag-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\flags\\flag-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\flags\\flag-05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\flags\\flag-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\footer-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\img\\footer-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\footer-fift-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\footer-fift-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\footer-fift-payment.png",
+      "PackagePath": "staticwebassets\\assets\\img\\footer-fift-payment.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\fornt-07.png",
+      "PackagePath": "staticwebassets\\assets\\img\\fornt-07.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\front-07.png",
+      "PackagePath": "staticwebassets\\assets\\img\\front-07.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\girl-08.png",
+      "PackagePath": "staticwebassets\\assets\\img\\girl-08.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\google-img.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\google-img.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\google-map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\google-map.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\google-play.png",
+      "PackagePath": "staticwebassets\\assets\\img\\google-play.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\google-store-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\google-store-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\heart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\heart.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\home-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\hospital.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hospital.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icon-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icon-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icon-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\aboutus-icon1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\aboutus-icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\add-circle.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\add-circle.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\atom-bond2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\atom-bond2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\ban-img-icon-4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\ban-img-icon-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\ban-img-icon5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\ban-img-icon5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\ban-img-icon6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\ban-img-icon6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\ban-six-icon1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\ban-six-icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\ban-six-icon2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\ban-six-icon2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\ban-six-icon3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\ban-six-icon3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\bath-tub.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\bath-tub.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\bottel.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\bottel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\check.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\check.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\choose-01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\choose-01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\choose-02.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\choose-02.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\choose-03.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\choose-03.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\choose-04.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\choose-04.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\choose-icon1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\choose-icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\choose-icon2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\choose-icon2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\choose-icon3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\choose-icon3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\choose-icon4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\choose-icon4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\contact-icon1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\contact-icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\count-01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\count-01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\count-02.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\count-02.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\count-03.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\count-03.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\count-04.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\count-04.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\customer-service-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\customer-service-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\customer-service-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\customer-service-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\device-message.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\device-message.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\discover-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\discover-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\discover-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\discover-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\discover-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\discover-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\discover-4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\discover-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\discover-5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\discover-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\doc-01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\doc-01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\doc-02.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\doc-02.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\doc-03.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\doc-03.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\doctor-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\doctor-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\down-arrow-gray-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\down-arrow-gray-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\down-arrow-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\down-arrow-gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\drugs-svg.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\drugs-svg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\experience-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\experience-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\experience-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\experience-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\experience-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\experience-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\experience-4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\experience-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\experience-5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\experience-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\experience-6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\experience-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\eye-icon-01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\eye-icon-01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\eye-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\eye-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\eye-white-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\eye-white-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\facts-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\facts-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\facts-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\facts-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\facts-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\facts-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\facts-4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\facts-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\facts-5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\facts-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\fifteen-play.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\fifteen-play.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\fluent-password.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\fluent-password.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\globe.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\globe.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\google-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\google-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\header-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\header-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\health-care-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\health-care-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\health-care-love.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\health-care-love.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\healthcare.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\healthcare.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\heart-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\heart-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\hex-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\hex-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\hreat-pulse.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\hreat-pulse.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\injection.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\injection.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\password-duotone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\password-duotone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\patient-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\patient-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\pet-doctor.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\pet-doctor.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\phone-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\phone-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\phone.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\phone.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\price-icon1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\price-icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\price-icon2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\price-icon2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\price-icon3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\price-icon3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\rainbow-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\rainbow-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\rainbow-4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\rainbow-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\search-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\search-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\serv-img-icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\serv-img-icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\serv-img-icon-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\serv-img-icon-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\serv-img-icon-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\serv-img-icon-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\signup-unlock.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\signup-unlock.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\signup-users.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\signup-users.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\smart-phone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\smart-phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\smiling-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\smiling-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\star.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\success-tick.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\success-tick.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\syringe-svg.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\syringe-svg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\test-line.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\test-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\tick-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\tick-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\today-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\today-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\up-cam.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\up-cam.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\user-doctor.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\user-doctor.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\we-are-icon1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\we-are-icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\we-are-icon2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\we-are-icon2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\we-are-icon3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\we-are-icon3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\work-01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\work-01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\work-02.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\work-02.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\work-03.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\work-03.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\work-04.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\work-04.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\icons\\x-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\x-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\img-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\img-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\img-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\img-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\img-pharmacy1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img-pharmacy1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\lab-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lab-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\location.png",
+      "PackagePath": "staticwebassets\\assets\\img\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\login-banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\login-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\logosV-05-05.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logosV-05-05.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\loupe.png",
+      "PackagePath": "staticwebassets\\assets\\img\\loupe.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\mail-box.png",
+      "PackagePath": "staticwebassets\\assets\\img\\mail-box.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\maintenance.png",
+      "PackagePath": "staticwebassets\\assets\\img\\maintenance.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\map-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\map-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\medical-img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\medical-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\medical-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\medical-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\medical-img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\medical-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\mobile-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\mobile-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\offer-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\offer-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\offer-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\offer-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\onboard-img\\onb-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\onboard-img\\onb-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\onboard-img\\onb-slide-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\onboard-img\\onb-slide-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\orthopedics.png",
+      "PackagePath": "staticwebassets\\assets\\img\\orthopedics.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\partners\\partners-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\partners\\partners-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\partners\\partners-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\partners\\partners-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\partners\\partners-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\partners\\partners-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\partners\\partners-4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\partners\\partners-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\partners\\partners-5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\partners\\partners-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\partners\\partners-6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\partners\\partners-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients-img-fifteen.png",
+      "PackagePath": "staticwebassets\\assets\\img\\patients-img-fifteen.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\articles-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\articles-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\articles-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\articles-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\articles-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\articles-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\articles-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\articles-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\patients\\patient9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\patients\\patient9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\payment.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\pharmacy-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pharmacy-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\pharmacy-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pharmacy-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\pharmacy-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pharmacy-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\products\\product8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\scan-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\scan-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\schedule.png",
+      "PackagePath": "staticwebassets\\assets\\img\\schedule.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\search-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\search-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\search.png",
+      "PackagePath": "staticwebassets\\assets\\img\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\serive-bg-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\serive-bg-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\service-six-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service-six-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\service-six-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service-six-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\service-six-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service-six-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\service-six-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service-six-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\service-sixteen-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\service-sixteen-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\service\\service-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\service\\service-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\service\\service-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\services-six-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services-six-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shape-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shape-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shape-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shape-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shape-04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shape-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shape-05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shape-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shape-06.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shape-06.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shape-07.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shape-07.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\alarm.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\alarm.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\blog-img01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\blog-img01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\blog-img02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\blog-img02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\blog-img03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\blog-img03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\bro-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\bro-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\bro-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\bro-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\bro-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\bro-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\bro-04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\bro-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\bro-05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\bro-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\consult.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\consult.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\doctor-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\doctor-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\doctor-right-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\doctor-right-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\exper.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\exper.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\graph-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\graph-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\graph-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\graph-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\graph-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\graph-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\graph-04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\graph-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\map-plus.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\map-plus.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\shape-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\shape-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\spec-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\spec-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\spec-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\spec-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\spec-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\spec-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\spec-04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\spec-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\spec-05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\spec-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\spec-06.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\spec-06.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\spec-07.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\spec-07.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\shapes\\spec.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\spec.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\slider\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\banner-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\special-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\special-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialist-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\specialist-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\pt-dashboard-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\pt-dashboard-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\pt-dashboard-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\pt-dashboard-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\pt-dashboard-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\pt-dashboard-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\pt-dashboard-04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\pt-dashboard-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-01.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-02.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-02.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-03.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-03.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-04.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-04.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-05.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-05.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\specialities\\specialities-06.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\specialities\\specialities-06.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\stores\\store-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stores\\store-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\testimonial.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\testimonial.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\tooth.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tooth.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\treatment-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\treatment-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\treatment-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\treatment-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\treatment-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\treatment-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\treatment-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\treatment-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\upload-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\upload-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\urology.png",
+      "PackagePath": "staticwebassets\\assets\\img\\urology.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\user.png",
+      "PackagePath": "staticwebassets\\assets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\video-call.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\video-call.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\vita-05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\vita-05.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\vitalityLogo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\vitalityLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\way-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\way-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\img\\work-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\work-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\backToTop.js",
+      "PackagePath": "staticwebassets\\assets\\js\\backToTop.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\circle-progress.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\counter.js",
+      "PackagePath": "staticwebassets\\assets\\js\\counter.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\feather.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\jquery-3.6.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.6.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\jquery.waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.waypoints.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\map.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\profile-settings.js",
+      "PackagePath": "staticwebassets\\assets\\js\\profile-settings.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\js\\slick.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\apex\\apexcharts.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\apex\\apexcharts.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\apex\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\apex\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\css\\bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-tagsinput\\css\\bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\js\\bootstrap-tagsinput.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-tagsinput\\js\\bootstrap-tagsinput.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\dropzone\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\dropzone\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fancybox\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancybox\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fancybox\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fancybox\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.html"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\intltelinput\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\intltelinput\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\intltelinput\\css\\intlTelInput.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\intltelinput\\css\\intlTelInput.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\intltelinput\\img\\flags.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\intltelinput\\img\\flags.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\intltelinput\\img\\flags@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\intltelinput\\img\\flags@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\intltelinput\\js\\intlTelInput.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\intltelinput\\js\\intlTelInput.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\theia-sticky-sidebar\\ResizeSensor.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\theia-sticky-sidebar\\ResizeSensor.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\assets\\plugins\\theia-sticky-sidebar\\theia-sticky-sidebar.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\theia-sticky-sidebar\\theia-sticky-sidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\3.jpg",
+      "PackagePath": "staticwebassets\\image\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\4.jpg",
+      "PackagePath": "staticwebassets\\image\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\5.jfif",
+      "PackagePath": "staticwebassets\\image\\5.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\aqsa.jpeg",
+      "PackagePath": "staticwebassets\\image\\aqsa.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-15.jpg",
+      "PackagePath": "staticwebassets\\image\\doctor-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-16.jpg",
+      "PackagePath": "staticwebassets\\image\\doctor-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-17.jpg",
+      "PackagePath": "staticwebassets\\image\\doctor-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-18.jpg",
+      "PackagePath": "staticwebassets\\image\\doctor-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-20.jpg",
+      "PackagePath": "staticwebassets\\image\\doctor-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-24.jpg",
+      "PackagePath": "staticwebassets\\image\\doctor-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-26.png",
+      "PackagePath": "staticwebassets\\image\\doctor-26.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-27.png",
+      "PackagePath": "staticwebassets\\image\\doctor-27.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\doctor-thumb-01.jpg",
+      "PackagePath": "staticwebassets\\image\\doctor-thumb-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\image\\eye-doctor-03.jpg",
+      "PackagePath": "staticwebassets\\image\\eye-doctor-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Vitality\\Vitality\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Vitality.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Vitality.props",
+      "PackagePath": "build\\Vitality.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Vitality.props",
+      "PackagePath": "buildMultiTargeting\\Vitality.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Vitality.props",
+      "PackagePath": "buildTransitive\\Vitality.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

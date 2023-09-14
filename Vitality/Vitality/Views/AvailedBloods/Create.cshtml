@@ -1,0 +1,64 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model Vitality.Models.AvailedBlood
+
+@{
+    ViewData["Title"] = "Avail Blood";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Add Patient's ID</h3>
+                    @*<ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item"><a href="javascript:(0)">Settings</a></li>
+                    <li class="breadcrumb-item active">General Settings</li>
+                    </ul>*@
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Avail Blood</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            @*<div class="form-group">
+                            <label asp-for="BloodDonorsId" class="control-label"></label>
+                            <input asp-for="BloodDonorsId" class="form-control" />
+                            <span asp-validation-for="BloodDonorsId" class="text-danger"></span>
+                            </div>*@
+                            <div class="form-group">
+                                <label asp-for="PatientsCardId" class="control-label"></label>
+                                <select asp-for="PatientsCardId" class="form-control" asp-items="ViewBag.PatientsCardId"></select>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Avail" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

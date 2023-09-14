@@ -1,0 +1,120 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model Vitality.Models.DoctorsAppointment
+
+@{
+    ViewData["Title"] = "Add Appointment";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Add Doctor Appointment</h3>
+                    @*<ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item"><a href="javascript:(0)">Settings</a></li>
+                    <li class="breadcrumb-item active">General Settings</li>
+                    </ul>*@
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Doctor Appointment</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label class="control-label">Doctor</label>
+                                <select asp-for="DoctorAppointment" id="DoctorAppointment" class="form-control" asp-items="ViewBag.DoctorAppointment"></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Appointment Date</label>
+                                <input id="date_picker" type="date" asp-for="DoctorAppointmentDate" required class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Appointment Time</label>
+                                <select asp-for="DoctorAppointmentTime" id="DoctorAppointmentTime" class="form-control" asp-items="ViewBag.DoctorAppointmentTime"></select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label">Status</label>
+                                <select asp-for="Status" class="form-control">
+                                    <option value="Pending" >Pending</option>
+                                    <option value="Confirmed">Confirmed</option>
+                                </select>
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Patient's ID</label>
+                                <select asp-for="PatientsId" class="form-control" asp-items="ViewBag.PatientsId"></select>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Add appointment" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $("#DoctorAppointment").change(function () {
+            console.log($("#DoctorAppointment").val());
+            $.ajax({
+                type: 'get',
+                dataType: 'json',
+                cache: 'false',
+                url: "getSlotTime",
+                data: { getid: $("#DoctorAppointment").val() },
+                success: function (data) {
+
+                    $("#DoctorAppointmentTime").empty();
+                    $.each(data, function (index, row) {
+                        console.log(row);
+                        $("#DoctorAppointmentTime").append("<option value = '" + row.doctorSlotTimeID + "'> " + row.doctorSlotTime1 + "</option>")
+                    });
+
+                }
+            });
+        })
+    });
+</script>
+<script language="javascript">
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0');
+    var yyyy = today.getFullYear();
+
+    today = yyyy + '-' + mm + '-' + dd;
+    $('#date_picker').attr('min', today);
+</script>
+
+@*Date hiding script*@
+<link href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="Stylesheet"
+      type="text/css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>

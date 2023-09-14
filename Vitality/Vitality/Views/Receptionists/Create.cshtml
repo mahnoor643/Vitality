@@ -1,0 +1,57 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@model Vitality.Models.Receptionist
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Receptionist</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ReceptionistName" class="control-label"></label>
+                <input asp-for="ReceptionistName" class="form-control" />
+                <span asp-validation-for="ReceptionistName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReceptionistContactNo" class="control-label"></label>
+                <input asp-for="ReceptionistContactNo" class="form-control" />
+                <span asp-validation-for="ReceptionistContactNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReceptionistEmail" class="control-label"></label>
+                <input asp-for="ReceptionistEmail" class="form-control" />
+                <span asp-validation-for="ReceptionistEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReceptionistPwd" class="control-label"></label>
+                <input asp-for="ReceptionistPwd" class="form-control" />
+                <span asp-validation-for="ReceptionistPwd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

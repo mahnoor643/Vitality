@@ -1,0 +1,54 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@model Vitality.Models.PatientsRegistration
+
+@{
+    ViewData["Title"] = "Patient Login";
+}
+
+<div class="content top-space">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+
+                <div class="account-content">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-7 col-lg-6 login-left">
+                            <img src="~/../assets/img/login-banner.png" class="img-fluid" alt="Login Banner">
+                        </div>
+                        <div class="col-md-12 col-lg-6 login-right">
+                            <div class="login-header">
+                                <h3>Login As Patient <a asp-action="Login" asp-controller="DoctorsRegistrations">Not a Patient?</a></h3>
+                            </div>
+                            <form asp-action="Login">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group">
+                                    <input asp-for="PatientsEmail" type="email" required class="form-control" />
+                                    <label class="control-label">Username</label><br />
+                                    <span asp-validation-for="PatientsEmail" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="PatientsPwd" required type="password" class="form-control" />
+                                    <label class="control-label">Password</label>
+                                    <br />
+                                    <span asp-validation-for="PatientsPwd" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Login" class="btn btn-primary" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

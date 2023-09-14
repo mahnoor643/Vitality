@@ -1,0 +1,66 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model Vitality.Models.PatientRoom
+
+@{
+    ViewData["Title"] = "Edit Room";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Update Patient Rooms Details</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Modify Patient Room</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="RoomId" />
+                            <div class="form-group">
+                                <label class="control-label">Room</label>
+                                <input asp-for="Room" required class="form-control" />
+                                <span asp-validation-for="Room" class="text-danger"></span>
+                            </div>
+                            @* <div class="form-group">
+                            <label asp-for="Status" class="control-label"></label>
+                            <input asp-for="Status" class="form-control" />
+                            <span asp-validation-for="Status" class="text-danger"></span>
+                            </div>*@
+                            <div class="form-group">
+                                <label asp-for="RoomAmount" class="control-label"></label>
+                                <input asp-for="RoomAmount" type="number" required class="form-control" />
+                                <span asp-validation-for="RoomAmount" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

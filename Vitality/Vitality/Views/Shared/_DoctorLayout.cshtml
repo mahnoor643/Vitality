@@ -1,0 +1,518 @@
+﻿@using Vitality
+@using Microsoft.AspNetCore.Http
+@inject VitalitydbContext _context
+@inject IHttpContextAccessor HttpContextAccessor
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from doccure.dreamguystech.com/html/template/doctor-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 10:22:00 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <link href="~/../assets/img/vita-05.png" rel="icon">
+
+    <link rel="stylesheet" href="~/../assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/../assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/../assets/plugins/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="~/../assets/css/feather.css">
+
+    <link rel="stylesheet" href="~/../assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+
+        .container {
+            text-align: left;
+        }
+
+        .bar {
+            width: 140px;
+            height: auto;
+            display: inline-block;
+            margin-right: 20px;
+        }
+    </style>
+ 
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+        <header class="header header-fixed header-one">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg header-nav">
+                    <div class="navbar-header">
+                        <a id="mobile_btn" href="javascript:void(0);">
+                            <span class="bar-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </a>
+                        <a asp-action="Index" asp-controller="Home" class="bar">
+                            <img src="~/../assets/img/logosV-05-05.svg" class="img-fluid" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="main-menu-wrapper">
+                        <div class="menu-header">
+                            <a asp-action="Index" asp-controller="Home" class="bar">
+                                <img src="~/../assets/img/logosV-05-05.svg" class="img-fluid" alt="Logo">
+                            </a>
+                            <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </div>
+                        <ul class="main-nav">
+                            <li>
+                                <a asp-controller="DoctorsRegistrations" asp-action="dashboard">
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="DoctorsRegistrations" asp-action="appointmentFetch">
+                                    <span>Appointments</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="DoctorSlotDays" asp-action="Create">
+                                    <span>Add Slot</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="DoctorSlotDays" asp-action="Index">
+                                    <span>Slots</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="DoctorSlotTimes" asp-action="Index">
+                                    <span>Added Times</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="DoctorSlotTimes" asp-action="Create">
+                                    <span>Add Slot Time</span>
+                                </a>
+                            </li>
+                            <ul class="nav header-navbar-rht">
+
+                                @{
+                                    var adminIdb = Context.Session.GetInt32(SessionVariables.SessionDoctorsID);
+                                    if (adminIdb.HasValue)
+                                    {
+                                        var adminb = _context.DoctorsRegistrations.FirstOrDefault(a => a.DoctorsId == adminIdb.Value);
+                                        if (adminb != null)
+                                        {
+                                            <li class="nav-item dropdown has-arrow logged-item">
+                                                <a asp-controller="DoctorsRegistrations" asp-action="dashboard" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                                                    <span class="user-img">
+                                                        <img class="rounded-circle" src="@Url.Content(adminb.DoctorsImg)" width="31"
+                                                             alt="@adminb.DoctorsName">
+                                                    </span>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <div class="user-header">
+                                                        <div class="avatar avatar-sm">
+                                                            <img src="@Url.Content(adminb.DoctorsImg)" alt="@adminb.DoctorsName"
+                                                                 class="avatar-img rounded-circle">
+                                                        </div>
+                                                        <div class="user-text">
+                                                            <h6>@adminb.DoctorsName</h6>
+                                                            <p class="text-muted mb-0">Doctor</p>
+                                                        </div>
+                                                    </div>
+                                                    <a class="dropdown-item" asp-action="dashboard" asp-controller="DoctorsRegistrations">Dashboard</a>
+                                                    <a class="dropdown-item" asp-action="Edit" asp-controller="DoctorsRegistrations" asp-route-id="@adminb.DoctorsId">Profile Settings</a>
+                                                    <a class="dropdown-item" asp-action="Logout" asp-controller="DoctorsRegistrations">Logout</a>
+                                                </div>
+                                            </li>
+                                        }
+                                    }
+                                }
+
+                            </ul>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+
+
+
+        <div class="breadcrumb-bar-two">
+            <div class="container">
+                <div class="row align-items-center inner-banner">
+                    <div class="col-md-12 col-12 text-center">
+                        <h2 class="breadcrumb-title">@ViewData["Title"]</h2>
+                        <nav aria-label="breadcrumb" class="page-breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a asp-action="dashboard" asp-controller="DoctorsRegistrations">Home</a></li>
+                                <li class="breadcrumb-item" aria-current="page">@ViewData["Title"]</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+
+                        <div class="profile-sidebar">
+
+                            @{
+                                var adminId = Context.Session.GetInt32(SessionVariables.SessionDoctorsID);
+                                if (adminId.HasValue)
+                                {
+                                    var admin = _context.DoctorsRegistrations.FirstOrDefault(a => a.DoctorsId == adminId.Value);
+                                    if (admin != null)
+                                    {
+                                        <div class="widget-profile pro-widget-content">
+                                            <div class="profile-info-widget">
+                                                <a href="#" class="booking-doc-img">
+                                                    <img src="@Url.Content(admin.DoctorsImg)" alt="User Image">
+                                                </a>
+                                                <div class="profile-det-info">
+                                                    <h3>@admin.DoctorsName</h3>
+                                                    @*<div class="patient-details">
+                                        <h5 class="mb-0">@admin.DoctorsCategoryNavigation.DoctorCategory1</h5>
+                                        </div>*@
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                            }
+
+
+
+                            <div class="dashboard-widget">
+                                <nav class="dashboard-menu">
+                                    <ul>
+
+                                        <li>
+                                            <a asp-controller="DoctorsRegistrations" asp-action="dashboard">
+                                                <i class="fas fa-calendar-check"></i>
+                                                <span>Dashboard</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="DoctorsRegistrations" asp-action="appointmentFetch">
+                                                <i class="bi bi-card-checklist"></i>
+                                                <span>Appointments</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="DoctorSlotDays" asp-action="Create">
+                                                <i class="bi bi-pencil"></i>
+                                                <span>Add Slot</span>
+                                            </a>
+                                        </li>
+                                        @{
+                                            var adminIda = Context.Session.GetInt32(SessionVariables.SessionDoctorsID);
+                                            if (adminIda.HasValue)
+                                            {
+                                                var admina = _context.DoctorsRegistrations.FirstOrDefault(a => a.DoctorsId == adminIda.Value);
+                                                if (admina != null)
+                                                {
+                                                    <li>
+                                                        <a asp-controller="DoctorsRegistrations" asp-action="Edit" asp-route-id="@admina.DoctorsId">
+                                                            <i class="bi bi-pencil-square"></i>
+                                                            <span>Edit Profile</span>
+                                                        </a>
+                                                    </li>
+                                                }
+                                            }
+                                        }
+                                        <li>
+                                            <a asp-controller="DoctorSlotDays" asp-action="Index">
+                                                <i class="bi bi-folder2-open"></i>
+                                                <span>Slots</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="DoctorSlotTimes" asp-action="Index">
+                                                <i class="bi bi-stopwatch"></i>
+                                                <span>Added Times</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="DoctorSlotTimes" asp-action="Create">
+                                                <i class="bi bi-hourglass-bottom"></i>
+                                                <span>Add Slot Time</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a asp-action="Logout" asp-controller="DoctorsRegistrations">
+                                                <i class="bi bi-lock-fill"></i>                                                
+                                                <span>Logout</span>
+                                            </a>
+                                        </li>
+                                        
+                                        @*<li>
+                                        <a href="my-patients.html">
+                                        <i class="fas fa-user-injured"></i>
+                                        <span>My Patients</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="schedule-timings.html">
+                                        <i class="fas fa-hourglass-start"></i>
+                                        <span>Schedule Timings</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="available-timings.html">
+                                        <i class="fas fa-clock"></i>
+                                        <span>Available Timings</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="invoices.html">
+                                        <i class="fas fa-file-invoice"></i>
+                                        <span>Invoices</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="accounts.html">
+                                        <i class="fas fa-file-invoice-dollar"></i>
+                                        <span>Accounts</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="reviews.html">
+                                        <i class="fas fa-star"></i>
+                                        <span>Reviews</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="chat-doctor.html">
+                                        <i class="fas fa-comments"></i>
+                                        <span>Message</span>
+                                        <small class="unread-msg">23</small>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="doctor-profile-settings.html">
+                                        <i class="fas fa-user-cog"></i>
+                                        <span>Profile Settings</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="social-media.html">
+                                        <i class="fas fa-share-alt"></i>
+                                        <span>Social Media</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="doctor-change-password.html">
+                                        <i class="fas fa-lock"></i>
+                                        <span>Change Password</span>
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="index.html">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <span>Logout</span>
+                                        </a>
+                                        </li>
+                                        *@
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    @RenderBody()
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="footer footer-one">
+            <div class="footer-top aos" data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="footer-widget footer-about">
+                                <div class="bar">
+                                    <img src="~/../assets/img/logosV-05-05.svg" alt="logo">
+                                </div>
+                                <div class="footer-about-content">
+                                    <p>Your health, our priority </p>
+                                    <p>Welcome to our hospital</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">Quick Links</h2>
+                                <ul>
+                                    <li>
+                                        <a asp-controller="DoctorsRegistrations" asp-action="dashboard">
+                                            <span>Dashboard</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="DoctorSlotDays" asp-action="Create">
+                                            <span>Add Slot</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="DoctorSlotDays" asp-action="Index">
+                                            <span>Slots</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        
+                        
+                        
+                        
+                        
+
+                        <div class="col-lg-2 col-md-4">
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">Quick Access</h2>
+                                <ul>
+                                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                                    <li>
+                                        <a asp-controller="DoctorSlotTimes" asp-action="Index">
+                                            <span>Added Times</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="DoctorSlotTimes" asp-action="Create">
+                                            <span>Add Slot Time</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-5">
+                            <div class="footer-widget footer-contact">
+                                <h2 class="footer-title">Contact Us</h2>
+                                <div class="footer-contact-info">
+                                    <div class="footer-address">
+                                        <p><i class="feather-map-pin"></i> 3556 Beech Street, USA</p>
+                                    </div>
+                                    <div class="footer-address">
+                                        <p><i class="feather-phone-call"></i> +1 315 369 5943</p>
+                                    </div>
+                                    <div class="footer-address mb-0">
+                                        <p><i class="feather-mail"></i> <a href="https://doccure.dreamguystech.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="89ede6eaeafcfbecc9ecf1e8e4f9e5eca7eae6e4">[email&#160;protected]</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-7">
+                            <div class="footer-widget">
+                                <h2 class="footer-title">Join Our Newsletter</h2>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="email" class="form-control" placeholder="Enter Email">
+                                        <button type="submit" class="btn">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="social-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:;" target="_blank"><i class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" target="_blank"><i class="fab fa-twitter"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="copyright-text">
+                                    <p class="mb-0"> Copyright © 2023 <a href="https://themeforest.net/user/dreamguys/portfolio" target="_blank">AsmaMahnoor.</a> All Rights Reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+
+                                <div class="copyright-menu">
+                                    <ul class="policy-menu">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms and Conditions</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+
+    </div>
+
+
+    <div class="progress-wrap active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 228.265px;"></path>
+        </svg>
+    </div>
+
+
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="~/../assets/js/jquery-3.6.4.min.js"></script>
+
+    <script src="~/../assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/../assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="~/../assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+    <script src="~/../assets/js/circle-progress.min.js"></script>
+
+    <script src="~/../assets/js/script.js"></script>
+</body>
+
+<!-- Mirrored from doccure.dreamguystech.com/html/template/doctor-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 10:22:20 GMT -->
+
+</html>

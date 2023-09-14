@@ -1,0 +1,67 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model Vitality.Models.Admin
+
+@{
+    ViewData["Title"] = "Admin";
+}
+
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Add Admin Account</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Admins</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label class="control-label">Name: </label>
+                                <input asp-for="AdminName" required class="form-control" />
+                                <span asp-validation-for="AdminName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label  class="control-label">Username: </label>
+                                <input asp-for="AdminUsername" required class="form-control" />
+                                <span asp-validation-for="AdminUsername" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Password: </label>
+                                <input asp-for="AdminPwd" required class="form-control" />
+                                <span asp-validation-for="AdminPwd" class="text-danger"></span>
+                            </div>
+                           
+                            <div class="form-group">
+                                <input type="submit" value="Add account" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

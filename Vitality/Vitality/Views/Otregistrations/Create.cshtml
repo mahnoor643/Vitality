@@ -1,0 +1,83 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            alert('@errorMessage');
+        </script>
+    }
+}
+@{
+    Layout = "~/Views/Shared/_adminsLayout.cshtml";
+}
+@model Vitality.Models.Otregistration
+
+@{
+    ViewData["Title"] = "OT Registration";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">OT Registration</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">OT Registration</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label class="control-label">Patients Card ID</label>
+                                <select asp-for="PatientsCardId" class="form-control" asp-items="ViewBag.PatientsCardId"></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">OT Time</label>
+                                <select asp-for="Ottime" class="form-control" asp-items="ViewBag.Ottime"></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">OT Date</label>
+                                <input required id="date_picker" asp-for="Otdate" type="date" class="form-control" />
+                                <span asp-validation-for="Otdate" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Doctor</label>
+                                <select asp-for="DoctorId" class="form-control" asp-items="ViewBag.DoctorId"></select>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Register" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script language="javascript">
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0');
+    var yyyy = today.getFullYear();
+
+    today = yyyy + '-' + mm + '-' + dd;
+    $('#date_picker').attr('min', today);
+</script>
+
+@*Date hiding script*@
+<link href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="Stylesheet"
+      type="text/css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
