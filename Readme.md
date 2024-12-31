@@ -1,4 +1,4 @@
-# Project Name
+# Vitality
 
 ## Overview
 This project is a comprehensive application designed for managing patient and doctor interactions. The application uses **Visual Studio 2022** for development, **SQL Server Management Studio 19** for database management, and **SQL Server 2022** as the backend database.
